@@ -8,7 +8,7 @@ export default function ContactPage() {
   const [sent, setSent] = useState(false);
 
   useEffect(() => {
-    document.title = 'Contact aiOn Health Science';
+    document.title = 'Contact JCRingforlife Health Science';
     window.scrollTo(0, 0);
   }, []);
 
@@ -30,7 +30,7 @@ export default function ContactPage() {
         <div className="text-center max-w-2xl mx-auto mb-14">
           <span className="eyebrow text-primary">Get in Touch</span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-light text-ink mt-1 tracking-tight">
-            Contact aiOn
+            Contact JCRingforlife
           </h1>
           <p className="mt-3 text-base font-light text-ink-soft leading-relaxed">
             Have questions about pre-orders, sizing, clinical validation, or partnerships? We’re here to help.
@@ -130,8 +130,8 @@ export default function ContactPage() {
                   <Mail className="w-4 h-4 text-primary shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold text-ink block">Customer Support</span>
-                    <a href="mailto:contact@aionrings.com" className="text-primary hover:underline">
-                      contact@aionrings.com
+                    <a href="mailto:contact@jcringforlife.com" className="text-primary hover:underline">
+                      contact@jcringforlife.com
                     </a>
                   </div>
                 </div>
@@ -139,8 +139,8 @@ export default function ContactPage() {
                   <Mail className="w-4 h-4 text-primary shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold text-ink block">Press & Partnerships</span>
-                    <a href="mailto:press@aionrings.com" className="text-primary hover:underline">
-                      press@aionrings.com
+                    <a href="mailto:press@jcringforlife.com" className="text-primary hover:underline">
+                      press@jcringforlife.com
                     </a>
                   </div>
                 </div>
@@ -152,7 +152,7 @@ export default function ContactPage() {
                 <MapPin className="w-4 h-4 text-primary shrink-0 mt-0.5" />
                 <div className="text-xs md:text-sm text-ink-soft space-y-1">
                   <span className="font-semibold text-ink block">Corporate Entity</span>
-                  <p>aiOn Health Science LLC</p>
+                  <p>JCRingforlife LLC</p>
                   <p>A Mazo Solutions Inc company</p>
                   <p className="text-xs text-ink-muted">Delaware / California, USA</p>
                 </div>

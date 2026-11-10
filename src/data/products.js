@@ -6,7 +6,7 @@ export const RING_FINISHES = [
     description: "Deep, matte obsidian finish crafted via advanced PVD deposition.",
     image: "/assets/ring-finish-midnight-DK6ZPSTf.png",
     heroImage: "/assets/ring-finish-midnight-DK6ZPSTf.png",
-    video: "/__l5e/assets-v1/10c368a0-6f0f-4ff8-bbc8-68b42f712e48/video-life-move-black.mp4",
+    video: "/assets/video-life-move-black.mp4",
     poster: "/assets/poster-life-early-CwSaqYEV.jpg",
     context: "Move",
   },
@@ -17,7 +17,7 @@ export const RING_FINISHES = [
     description: "Sleek, brushed aerospace-grade titanium in its purest natural brilliance.",
     image: "/assets/ring-finish-silver-Xrc8Y54a.png",
     heroImage: "/assets/ring-finish-silver-Xrc8Y54a.png",
-    video: "/__l5e/assets-v1/bb2fd238-1a68-4220-892a-1f40d4ba51af/video-life-rest-silver.mp4",
+    video: "/assets/video-life-rest-silver.mp4",
     poster: "/assets/nature-restful-night-BUfEgpbZ.jpg",
     context: "Rest",
   },
@@ -28,7 +28,7 @@ export const RING_FINISHES = [
     description: "Subtle, warm champagne rose tone that complements everyday elegance.",
     image: "/assets/ring-finish-rose-DTpoQDow.png",
     heroImage: "/assets/ring-finish-rose-DTpoQDow.png",
-    video: "/__l5e/assets-v1/f6397ab0-e192-4337-8ebc-b0f36503f8db/video-life-morning-rose.mp4",
+    video: "/assets/video-life-morning-rose.mp4",
     poster: "/assets/nature-sunrise-ridge-C0cApxPE.jpg",
     context: "Morning",
   },
@@ -47,7 +47,7 @@ export const RING_SIZES = [
 ];
 
 export const PRODUCT_INFO = {
-  name: "aiOn Smart Ring",
+  name: "JCRingforlife Smart Ring",
   subtitle: "Founder Edition",
   regularPrice: 199,
   preorderPrice: 149,
@@ -55,6 +55,6 @@ export const PRODUCT_INFO = {
   shipping: "Free Worldwide Express",
   deliveryWindow: "Ships Q3 2026",
   guarantee: "30-Day Money-Back Guarantee & 1-Year Full Warranty",
-  membership: "aiOn Vitals Included Lifetime (No Mandatory Subscription)",
+  membership: "JCRingforlife Vitals Included Lifetime (No Mandatory Subscription)",
 };
 

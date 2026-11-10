@@ -4,7 +4,7 @@ import { Zap, ArrowLeft, ArrowRight, Check } from 'lucide-react';
 
 export default function StressGuidePage() {
   useEffect(() => {
-    document.title = 'Stress Tracking Ring: How HRV Reveals Daytime Balance | aiOn';
+    document.title = 'Stress Tracking Ring: How HRV Reveals Daytime Balance | JCRingforlife';
     window.scrollTo(0, 0);
   }, []);
 
@@ -38,7 +38,7 @@ export default function StressGuidePage() {
               Stress is not inherently toxic — acute stress enables focus, fast problem-solving, and peak physical output. The biological damage occurs when stress remains sustained without autonomic decompression.
             </p>
             <p>
-              aiOn evaluates minute-by-minute pulse wave variations throughout the workday. When your sympathetic branch becomes hyperactive, heart rate intervals tighten and high-frequency HRV power contracts.
+              JCRingforlife evaluates minute-by-minute pulse wave variations throughout the workday. When your sympathetic branch becomes hyperactive, heart rate intervals tighten and high-frequency HRV power contracts.
             </p>
           </section>
 
@@ -47,7 +47,7 @@ export default function StressGuidePage() {
               2. Real-Time Intervention: The Box Breathing Reset
             </h2>
             <p>
-              Rather than passively recording that you were stressed six hours later, aiOn triggers calm awareness cues. Just 2 to 4 minutes of structured box breathing stimulates the vagus nerve, causing acetylcholine release that slows heart rate and lifts HRV within 90 seconds.
+              Rather than passively recording that you were stressed six hours later, JCRingforlife triggers calm awareness cues. Just 2 to 4 minutes of structured box breathing stimulates the vagus nerve, causing acetylcholine release that slows heart rate and lifts HRV within 90 seconds.
             </p>
           </section>
 
@@ -57,7 +57,7 @@ export default function StressGuidePage() {
               <span>Previous: Recovery Guide</span>
             </Link>
             <Link to="/preorder" className="btn-brand py-2.5 px-6 text-xs flex items-center gap-1.5">
-              <span>Pre-order aiOn Ring</span>
+              <span>Pre-order JCRingforlife Ring</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

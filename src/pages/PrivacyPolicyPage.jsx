@@ -4,7 +4,7 @@ import { Shield } from 'lucide-react';
 
 export default function PrivacyPolicyPage() {
   useEffect(() => {
-    document.title = 'Privacy Policy - aiOn Health Science';
+    document.title = 'Privacy Policy - JCRingforlife Health Science';
     window.scrollTo(0, 0);
   }, []);
 
@@ -24,7 +24,7 @@ export default function PrivacyPolicyPage() {
               Privacy Policy
             </h1>
             <p className="text-xs text-ink-muted mt-2">
-              Effective Date: November 2026 · aiOn Health Science LLC
+              Effective Date: November 2026 · JCRingforlife LLC
             </p>
           </div>
 
@@ -38,12 +38,12 @@ export default function PrivacyPolicyPage() {
           <section className="space-y-3">
             <h2 className="text-xl font-medium text-ink">1. Information We Collect</h2>
             <p>
-              When you use the aiOn smart wellness ring and mobile application, we process:
+              When you use the JCRingforlife smart wellness ring and mobile application, we process:
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-xs md:text-sm">
               <li><strong>Account Identifiers:</strong> Name, email address, password hash, and shipping destination for your sizing kit and ring.</li>
               <li><strong>Physiological Telemetry:</strong> Beat-to-beat photoplethysmography (PPG), resting heart rate, heart rate variability (HRV), peripheral capillary oxygen saturation (SpO₂), micro-thermistor skin temperature deviations, and 3D accelerometer motion vectors.</li>
-              <li><strong>Self-Reported Insights:</strong> Sleep quality perceptions, menstrual cycle logs, or custom notes entered within the aiOn app.</li>
+              <li><strong>Self-Reported Insights:</strong> Sleep quality perceptions, menstrual cycle logs, or custom notes entered within the JCRingforlife app.</li>
             </ul>
           </section>
 

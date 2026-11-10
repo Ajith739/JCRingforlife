@@ -1,141 +1,129 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Activity, Compass, Zap } from 'lucide-react';
-
-const STEPS = [
-  {
-    step: '01',
-    label: 'TRACK',
-    title: 'Continuous, screenless awareness',
-    desc: 'Medical-grade dual PPG sensors, skin thermistor and 3D accelerometer monitor resting heart rate, HRV, SpO₂ and sleep stages 24/7.',
-    icon: Activity,
-  },
-  {
-    step: '02',
-    label: 'UNDERSTAND',
-    title: 'Synthesized to one Vitality Score',
-    desc: 'Our proprietary on-device model weights autonomic resilience and sleep debt to calculate a single, intuitive 0-100 baseline score every morning.',
-    icon: Compass,
-  },
-  {
-    step: '03',
-    label: 'ACT',
-    title: 'One daily personalized quest',
-    desc: 'No confusing charts or data paralysis. aiOn provides one actionable habit to maximize energy and restore your autonomic balance.',
-    icon: Zap,
-  },
-];
+import React, { useState, useEffect } from 'react';
+import { motion, useInView } from 'framer-motion';
 
 export default function VitalityLoopSection() {
-  return (
-    <section id="how" className="relative overflow-hidden bg-white py-24 md:py-36 border-t border-border">
-      <div className="container mx-auto px-6 max-w-6xl">
-        <div className="text-center max-w-2xl mx-auto mb-16 md:mb-24">
-          <span className="eyebrow text-primary">How aiOn Works</span>
-          <h2 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-light tracking-tight text-ink">
-            The Full Circle of Health
-          </h2>
-          <p className="mt-4 text-base font-light text-ink-soft leading-relaxed">
-            Health should not feel like full-time data analysis. We turn millions of raw data points into one score and one action.
-          </p>
-        </div>
+  const [score, setScore] = useState(0);
+  const containerRef = React.useRef(null);
+  const isInView = useInView(containerRef, { once: true, margin: '-50px' });
 
-        <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Animated Circular Vitality Gauge */}
+  useEffect(() => {
+    if (!isInView) return;
+    let current = 0;
+    const target = 84;
+    const timer = setInterval(() => {
+      current += 2;
+      if (current >= target) {
+        setScore(target);
+        clearInterval(timer);
+      } else {
+        setScore(current);
+      }
+    }, 25);
+    return () => clearInterval(timer);
+  }, [isInView]);
+
+  return (
+    <section id="how" className="relative overflow-hidden bg-white py-14 sm:py-16 md:py-24" ref={containerRef}>
+      <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
+        <img
+          src="/assets/nature-sunrise-ridge-C0cApxPE.jpg"
+          alt=""
+          loading="lazy"
+          className="h-full w-full object-cover"
+          style={{ objectPosition: 'center 40%', opacity: 0.3, filter: 'saturate(0.85)' }}
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              'linear-gradient(rgba(255, 255, 255, 0.94) 0%, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.94) 100%)',
+          }}
+        />
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative mx-auto flex items-center justify-center w-72 h-72 sm:w-88 sm:h-88 md:w-96 md:h-96"
           >
-            {/* SVG Circle Progress */}
-            <svg viewBox="0 0 100 100" className="h-full w-full -rotate-90">
-              <defs>
-                <linearGradient id="vitalityGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#00A9E0" />
-                  <stop offset="50%" stopColor="#1878E0" />
-                  <stop offset="100%" stopColor="#6D28D9" />
-                </linearGradient>
-              </defs>
-              <circle
-                cx="50"
-                cy="50"
-                r="42"
-                stroke="#E2E8F0"
-                strokeWidth="4"
-                fill="none"
-              />
-              <motion.circle
-                cx="50"
-                cy="50"
-                r="42"
-                stroke="url(#vitalityGrad)"
-                strokeWidth="4.5"
-                strokeLinecap="round"
-                fill="none"
-                strokeDasharray="264"
-                initial={{ strokeDashoffset: 264 }}
-                whileInView={{ strokeDashoffset: 42 }}
-                viewport={{ once: true }}
-                transition={{ duration: 1.8, ease: 'easeOut' }}
-              />
-            </svg>
-
-            {/* Inner Vitality Score Display */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-              <span className="text-[11px] font-semibold tracking-[0.2em] text-ink-muted uppercase">
-                Vitality Score
-              </span>
-              <span className="text-6xl sm:text-7xl font-extralight text-ink my-1">
-                84
-              </span>
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-semibold">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                <span>Prime Recovery</span>
+            <div className="relative mx-auto h-72 w-72 md:h-96 md:w-96">
+              <svg viewBox="0 0 100 100" className="h-full w-full -rotate-90">
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="44"
+                  stroke="rgba(10,22,40,0.10)"
+                  strokeWidth="3"
+                  fill="none"
+                />
+                <motion.circle
+                  cx="50"
+                  cy="50"
+                  r="44"
+                  fill="none"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  stroke="url(#v2grad)"
+                  pathLength="1"
+                  initial={{ strokeDashoffset: 1 }}
+                  animate={isInView ? { strokeDashoffset: 1 - 0.84 } : {}}
+                  transition={{ duration: 1.5, ease: 'easeOut' }}
+                  strokeDasharray="1 1"
+                />
+                <defs>
+                  <linearGradient id="v2grad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stopColor="#1878E0" />
+                    <stop offset="100%" stopColor="#22B07D" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <div className="text-6xl md:text-7xl font-extralight text-ink">
+                  <span>{score}</span>
+                </div>
+                <div className="mt-1 text-xs md:text-sm text-ink-muted tracking-widest uppercase">
+                  YOUR VITALITY SCORE
+                </div>
               </div>
-              <span className="mt-2 text-[11px] text-ink-muted">
-                Readiness elevated +12%
-              </span>
+            </div>
+
+            <div className="mt-8 flex items-center justify-center gap-2 text-sm text-ink-soft">
+              <span
+                className="h-2 w-2 rounded-full"
+                style={{
+                  background: 'rgb(34, 176, 125)',
+                  boxShadow: 'rgb(34, 176, 125) 0px 0px 13.5825px',
+                }}
+              />
+              You're ready today
             </div>
           </motion.div>
 
-          {/* 3 Step Cards */}
-          <div className="space-y-8">
-            {STEPS.map((item, idx) => {
-              const Icon = item.icon;
-              return (
-                <motion.div
-                  key={idx}
-                  initial={{ opacity: 0, x: 25 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6, delay: idx * 0.15 }}
-                  className="group relative flex gap-5 p-5 rounded-2xl bg-canvas border border-border/70 hover:border-primary/40 hover:bg-white hover:shadow-card transition-all"
-                >
-                  <div className="w-12 h-12 rounded-xl bg-white border border-border/80 flex items-center justify-center shrink-0 text-primary shadow-sm group-hover:scale-105 transition-transform">
-                    <Icon className="w-6 h-6" />
-                  </div>
-                  <div>
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="text-xs font-bold text-primary tracking-wider">
-                        {item.step} · {item.label}
-                      </span>
-                    </div>
-                    <h3 className="text-lg font-medium text-ink mb-1.5">
-                      {item.title}
-                    </h3>
-                    <p className="text-sm font-light text-ink-soft leading-relaxed">
-                      {item.desc}
-                    </p>
-                  </div>
-                </motion.div>
-              );
-            })}
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            <h2 className="text-4xl md:text-6xl font-extralight text-ink leading-[1.05]">
+              <span>Wake up knowing</span>
+              <br />
+              <span>your number.</span>
+            </h2>
+            <div className="mt-8 space-y-3 text-ink-soft text-lg font-light">
+              <p>
+                Heart Rate. HRV. Sleep.
+                <br />
+                Stress. Recovery. SpO₂.
+              </p>
+              <p className="text-ink font-normal">One score. Every morning.</p>
+            </div>
+          </motion.div>
         </div>
       </div>
     </section>
   );
 }
-

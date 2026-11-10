@@ -57,7 +57,7 @@ const CIS_CONTROLS = [
 
 export default function CISPolicyPage() {
   useEffect(() => {
-    document.title = 'CIS Information Security Policy - aiOn Health Science';
+    document.title = 'CIS Information Security Policy - JCRingforlife Health Science';
     window.scrollTo(0, 0);
   }, []);
 
@@ -82,7 +82,7 @@ export default function CISPolicyPage() {
           </div>
 
           <p className="text-sm md:text-base font-light text-ink-soft leading-relaxed">
-            aiOn operates under a Zero Trust security paradigm. We adhere to the Center for Internet Security (CIS) Controls v8 to ensure our connected hardware, embedded firmware, cloud infrastructure, and client mobile apps protect human biometric telemetry against advanced cyber threats.
+            JCRingforlife operates under a Zero Trust security paradigm. We adhere to the Center for Internet Security (CIS) Controls v8 to ensure our connected hardware, embedded firmware, cloud infrastructure, and client mobile apps protect human biometric telemetry against advanced cyber threats.
           </p>
 
           <div className="space-y-6 pt-4">

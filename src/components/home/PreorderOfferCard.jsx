@@ -32,7 +32,7 @@ export default function PreorderOfferCard() {
               </div>
 
               <h2 className="text-3xl sm:text-4xl font-light text-ink tracking-tight">
-                Be the first to wear aiOn.
+                Be the first to wear JCRingforlife.
               </h2>
               <p className="mt-3 text-sm md:text-base font-light text-ink-soft leading-relaxed">
                 Join our first production run. Lock in permanent founder privileges, zero future subscription costs, and complimentary priority sizing.
@@ -41,7 +41,7 @@ export default function PreorderOfferCard() {
               <div className="mt-8 grid sm:grid-cols-2 gap-3.5">
                 {[
                   'Free Sizing Kit dispatched first',
-                  'Lifetime aiOn Vitals app access ($0)',
+                  'Lifetime JCRingforlife Vitals app access ($0)',
                   'No recurring monthly fees ever',
                   'Ships globally in Q3 2026',
                   '30-day money-back satisfaction',

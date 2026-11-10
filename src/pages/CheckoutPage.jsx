@@ -31,14 +31,14 @@ export default function CheckoutPage() {
   const [orderNumber, setOrderNumber] = useState('');
 
   useEffect(() => {
-    document.title = 'Checkout - aiOn Smart Wellness Ring';
+    document.title = 'Checkout - JCRingforlife Smart Wellness Ring';
     window.scrollTo(0, 0);
   }, []);
 
   const effectiveItems = items.length > 0 ? items : [
     {
       id: 'default-founder',
-      name: 'aiOn Smart Ring (Founder Edition)',
+      name: 'JCRingforlife Smart Ring (Founder Edition)',
       finishName: 'Midnight',
       size: 'Free Sizing Kit First',
       price: PRODUCT_INFO.preorderPrice,
@@ -71,7 +71,7 @@ export default function CheckoutPage() {
     setTimeout(() => {
       setIsProcessing(false);
       setIsCompleted(true);
-      setOrderNumber('AION-' + Math.floor(100000 + Math.random() * 900000));
+      setOrderNumber('JCRING-' + Math.floor(100000 + Math.random() * 900000));
       clearCart();
     }, 1200);
   };
@@ -429,7 +429,7 @@ export default function CheckoutPage() {
                 <span className="text-emerald-600 font-medium">Included ($0)</span>
               </div>
               <div className="flex justify-between py-1 text-ink-soft">
-                <span>aiOn Vitals Lifetime Access</span>
+                <span>JCRingforlife Vitals Lifetime Access</span>
                 <span className="text-emerald-600 font-medium">Included ($0)</span>
               </div>
               <div className="flex justify-between pt-3 text-base font-bold text-ink">

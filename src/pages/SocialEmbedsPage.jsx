@@ -22,7 +22,7 @@ const COMMUNITY_POSTS = [
     author: 'David Chen',
     handle: '@dchen_tech',
     tag: 'Wearables Reviewer',
-    comment: 'No monthly subscription is the killer feature. Oura charges $70/yr just to see your own sleep data. aiOn giving lifetime vitals for $149 changes the entire market.',
+    comment: 'No monthly subscription is the killer feature. Oura charges $70/yr just to see your own sleep data. JCRingforlife giving lifetime vitals for $149 changes the entire market.',
     rating: 5,
   },
   {
@@ -36,7 +36,7 @@ const COMMUNITY_POSTS = [
 
 export default function SocialEmbedsPage() {
   useEffect(() => {
-    document.title = 'Community & Social Reviews | aiOn';
+    document.title = 'Community & Social Reviews | JCRingforlife';
     window.scrollTo(0, 0);
   }, []);
 
@@ -55,7 +55,7 @@ export default function SocialEmbedsPage() {
             Loved by Physicians, Athletes & Early Believers
           </h1>
           <p className="mt-3 text-base font-light text-ink-soft leading-relaxed">
-            See what doctors, fitness leaders, and wearable enthusiasts are saying about the screenless aiOn ring.
+            See what doctors, fitness leaders, and wearable enthusiasts are saying about the screenless JCRingforlife ring.
           </p>
         </div>
 

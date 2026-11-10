@@ -4,7 +4,7 @@ import { Moon, ArrowLeft, ArrowRight, Check, Sparkles } from 'lucide-react';
 
 export default function SleepGuidePage() {
   useEffect(() => {
-    document.title = 'Sleep Tracking Ring: How It Works & What to Look For | aiOn';
+    document.title = 'Sleep Tracking Ring: How It Works & What to Look For | JCRingforlife';
     window.scrollTo(0, 0);
   }, []);
 
@@ -33,7 +33,7 @@ export default function SleepGuidePage() {
         <div className="rounded-3xl overflow-hidden border border-border shadow-card mb-12">
           <img
             src="/assets/nature-restful-night-BUfEgpbZ.jpg"
-            alt="Restful night sleep tracking with aiOn"
+            alt="Restful night sleep tracking with JCRingforlife"
             className="w-full h-72 sm:h-96 object-cover"
           />
         </div>
@@ -48,7 +48,7 @@ export default function SleepGuidePage() {
               When tracking sleep, consistency and comfort dictate accuracy. Bulky wristwatches often pinch when sleeping on your side or loosen as you shift positions, generating massive motion artifacts that distort heart rate variability readings.
             </p>
             <p>
-              Smart rings like aiOn sit comfortably at the base of your finger, where the digital palmar arteries reside millimeters beneath thin skin. This proximity allows infrared and green PPG sensors to track beat-to-beat intervals with millisecond accuracy.
+              Smart rings like JCRingforlife sit comfortably at the base of your finger, where the digital palmar arteries reside millimeters beneath thin skin. This proximity allows infrared and green PPG sensors to track beat-to-beat intervals with millisecond accuracy.
             </p>
           </section>
 

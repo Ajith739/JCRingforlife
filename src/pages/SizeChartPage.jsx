@@ -19,7 +19,7 @@ export default function SizeChartPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
-    document.title = 'Ring Size Chart - US, UK & EU Sizes | aiOn';
+    document.title = 'Ring Size Chart - US, UK & EU Sizes | JCRingforlife';
     window.scrollTo(0, 0);
   }, []);
 
@@ -80,7 +80,7 @@ export default function SizeChartPage() {
         <div className="rounded-3xl border border-border bg-white shadow-card overflow-hidden mb-16">
           <div className="p-6 border-b border-border bg-canvas/40 flex justify-between items-center">
             <h3 className="text-lg font-medium text-ink">
-              Official aiOn Size Cross-Reference Table
+              Official JCRingforlife Size Cross-Reference Table
             </h3>
             <span className="text-xs text-ink-muted">Standard ISO / US sizing</span>
           </div>
@@ -88,7 +88,7 @@ export default function SizeChartPage() {
             <table className="w-full text-left text-sm">
               <thead className="bg-canvas border-b border-border text-xs uppercase tracking-wider text-ink-muted">
                 <tr>
-                  <th className="py-4 px-6 font-semibold">aiOn / US Size</th>
+                  <th className="py-4 px-6 font-semibold">JCRingforlife / US Size</th>
                   <th className="py-4 px-6 font-semibold">UK / AU</th>
                   <th className="py-4 px-6 font-semibold">Europe (EU)</th>
                   <th className="py-4 px-6 font-semibold">Japan (JP)</th>
@@ -118,7 +118,7 @@ export default function SizeChartPage() {
             <span className="text-xs font-bold text-primary uppercase">Finger Selection</span>
             <h4 className="text-base font-semibold text-ink">Index Finger Preferred</h4>
             <p className="text-xs text-ink-soft leading-relaxed">
-              aiOn works on any finger, but the index or middle finger generally yields the strongest PPG pulse wave due to palm artery proximity.
+              JCRingforlife works on any finger, but the index or middle finger generally yields the strongest PPG pulse wave due to palm artery proximity.
             </p>
           </div>
           <div className="p-6 rounded-2xl bg-white border border-border space-y-2">

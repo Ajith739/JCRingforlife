@@ -2,170 +2,115 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
 
-const PRODUCT_LINKS = [
-  { label: 'How It Works', href: '/#how' },
-  { label: 'The App', href: '/app' },
-  { label: 'The Ring', href: '/#ring' },
-  { label: 'Pre-Order', href: '/preorder' },
-  { label: 'Size Guide', href: '/size-chart' },
-  { label: 'Sizing FAQ', href: '/faq' },
-  { label: 'Smart Ring Guide', href: '/smart-ring-guide' },
-];
-
-const COMPANY_LINKS = [
-  { label: 'About aiOn', href: '/' },
-  { label: 'Support & Help Desk', href: '/support' },
-  { label: 'Partner Program', href: '/partners' },
-  { label: 'Privacy Policy', href: '/privacy-policy' },
-  { label: 'Cookie Policy', href: '/cookie-policy' },
-  { label: 'CIS Security Policy', href: '/cis-policy' },
-  { label: 'Terms of Service', href: '/terms-of-service' },
-  { label: 'Accessibility', href: '/accessibility' },
-  { label: 'Trademarks', href: '/trademarks' },
-  { label: 'Contact Us', href: '/contact' },
-];
-
 export default function Footer() {
   return (
     <footer className="relative bg-white text-[#5A6B80] border-t border-border">
-      {/* Signature Top Accent Line */}
       <div
         className="absolute inset-x-0 top-0 h-[3px]"
         style={{
-          background: 'linear-gradient(90deg, #00A9E0, #1878E0, #6D28D9)',
+          background: 'linear-gradient(90deg, rgb(0, 169, 224), rgb(24, 120, 224), rgb(109, 40, 217))',
         }}
       />
-
-      <div className="mx-auto max-w-[1200px] px-6 pt-16 pb-12">
+      <div className="mx-auto max-w-[1200px] px-6 pt-16 pb-10">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-[2fr_1fr_1fr]">
-          {/* Brand Bio */}
           <div>
-            <Logo width={150} showTagline={true} />
-            <p className="mt-4 text-[15px] font-medium text-ink">
-              The Full Circle of Health
-            </p>
-            <p className="mt-2 text-[13px] text-[#6B7A8C] max-w-sm leading-relaxed">
-              aiOn turns everyday sleep, recovery and autonomic signals into one daily Vitality Score and one personalized daily quest.
-            </p>
-            <p className="mt-4 text-[12px] text-[#6B7A8C]">
-              aiOn Health Science LLC · A Mazo Solutions Inc company
-            </p>
+            <Logo width={180} />
+            <p className="mt-3 text-[14px] text-[#6B7A8C]">The Full Circle of Health</p>
+            <p className="mt-2 text-[13px] text-[#6B7A8C]">JCRingforlife LLC · A Mazo Solutions Inc company</p>
           </div>
-
-          {/* Product Nav */}
           <div>
-            <h4 className="mb-4 text-[11px] font-semibold uppercase tracking-[3px] text-[#5A6B80]">
-              Product
-            </h4>
-            <ul className="space-y-2.5">
-              {PRODUCT_LINKS.map((link) => (
-                <li key={link.label}>
-                  {link.href.startsWith('/#') ? (
-                    <a
-                      href={link.href}
-                      className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink hover:underline"
-                    >
-                      {link.label}
-                    </a>
-                  ) : (
-                    <Link
-                      to={link.href}
-                      className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink hover:underline"
-                    >
-                      {link.label}
-                    </Link>
-                  )}
-                </li>
-              ))}
+            <h4 className="mb-4 text-[11px] font-semibold uppercase tracking-[3px] text-[#5A6B80]">Product</h4>
+            <ul className="space-y-3">
+              <li><a href="/#how" className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink">How It Works</a></li>
+              <li><Link to="/app" className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink">The App</Link></li>
+              <li><a href="/#ring" className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink">The Ring</a></li>
+              <li><Link to="/preorder" className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink">Pre-Order</Link></li>
+              <li><Link to="/preorder" className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink">Size Guide</Link></li>
+              <li><Link to="/faq" className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink">Sizing FAQ</Link></li>
+              <li><Link to="/smart-ring-guide" className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink">Smart Ring Guide</Link></li>
             </ul>
           </div>
-
-          {/* Company Nav */}
           <div>
-            <h4 className="mb-4 text-[11px] font-semibold uppercase tracking-[3px] text-[#5A6B80]">
-              Company & Legal
-            </h4>
-            <ul className="space-y-2.5">
-              {COMPANY_LINKS.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    to={link.href}
-                    className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink hover:underline"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
+            <h4 className="mb-4 text-[11px] font-semibold uppercase tracking-[3px] text-[#5A6B80]">Company</h4>
+            <ul className="space-y-3">
+              <li><Link to="/" className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink">About</Link></li>
+              <li><Link to="/support" className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink">Support</Link></li>
+              <li><Link to="/privacy-policy" className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink">Privacy Policy</Link></li>
+              <li><Link to="/terms-of-service" className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink">Terms of Service</Link></li>
+              <li><Link to="/contact" className="text-[14px] text-[#5A6B80] transition-colors hover:text-ink">Contact</Link></li>
             </ul>
           </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 md:flex-row">
-          <p className="text-[13px] text-[#6B7A8C]">
-            © 2026 aiOn Health Science LLC. All rights reserved.
-          </p>
-
-          <div className="flex items-center gap-5 text-[#6B7A8C]">
+        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 md:flex-row">
+          <p className="text-[13px] text-[#6B7A8C]">© 2026 JCRingforlife LLC. All rights reserved.</p>
+          <div className="flex gap-5 text-[#6B7A8C]">
             <a
-              href="https://www.youtube.com/@aionrings"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="https://jcringforlife.com/"
               aria-label="YouTube"
-              className="transition-colors hover:text-primary"
+              className="transition-colors hover:text-[#1878E0]"
             >
-              <svg className="h-5 w-5 fill-current" viewBox="0 0 24 24">
-                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                <path d="m10 15 5-3-5-3z" />
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/company/aionrings/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="https://jcringforlife.com/"
               aria-label="LinkedIn"
-              className="transition-colors hover:text-primary"
+              className="transition-colors hover:text-[#1878E0]"
             >
-              <svg className="h-5 w-5 fill-current" viewBox="0 0 24 24">
-                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
               </svg>
             </a>
             <a
-              href="https://www.facebook.com/aionrings"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="https://jcringforlife.com/"
               aria-label="Facebook"
-              className="transition-colors hover:text-primary"
+              className="transition-colors hover:text-[#1878E0]"
             >
-              <svg className="h-5 w-5 fill-current" viewBox="0 0 24 24">
-                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
               </svg>
             </a>
             <a
-              href="https://twitter.com/aionrings"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="X / Twitter"
-              className="transition-colors hover:text-primary"
-            >
-              <svg className="h-5 w-5 fill-current" viewBox="0 0 24 24">
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-              </svg>
-            </a>
-            <a
-              href="https://www.instagram.com/aionrings"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="https://jcringforlife.com/"
               aria-label="Instagram"
-              className="transition-colors hover:text-primary"
+              className="transition-colors hover:text-[#1878E0]"
             >
-              <svg className="h-5 w-5 fill-current" viewBox="0 0 24 24">
-                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            </a>
+            <a
+              href="https://jcringforlife.com/"
+              aria-label="X / Twitter"
+              className="transition-colors hover:text-[#1878E0]"
+            >
+              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
               </svg>
             </a>
           </div>
         </div>
+
+        <p className="mx-auto mt-4 max-w-2xl text-center text-[12px] text-[#6B7A8C]">
+          JCRingforlife Ring is intended for general wellness purposes only and is not a medical device.
+        </p>
+        <p className="mx-auto mt-3 max-w-2xl text-center text-[12px] text-[#6B7A8C]">
+          The information provided by JCRingforlife Ring is for informational purposes only and is not intended to diagnose, treat, cure, or prevent any disease or medical condition.
+        </p>
+        <p className="mx-auto mt-3 max-w-2xl text-center text-[12px] text-[#6B7A8C]">
+          Always consult a qualified healthcare professional regarding any medical concerns or before making healthcare decisions.
+        </p>
+        <p className="mx-auto mt-3 max-w-2xl text-center text-[12px] text-[#6B7A8C]">
+          Blood Pressure (EST) and Blood Glucose (EST) are non-medical wellness estimates showing general trends only, they are not measurements and must not be used for any health or treatment decision.
+        </p>
       </div>
     </footer>
   );
 }
-

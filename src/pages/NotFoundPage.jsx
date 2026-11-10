@@ -5,7 +5,7 @@ export default function NotFoundPage() {
   const location = useLocation();
 
   useEffect(() => {
-    document.title = 'Page Not Found - aiOn';
+    document.title = 'Page Not Found - JCRingforlife';
   }, [location.pathname]);
 
   return (

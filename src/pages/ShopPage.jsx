@@ -14,7 +14,7 @@ export default function ShopPage() {
   const { addItem } = useCart();
 
   useEffect(() => {
-    document.title = 'Shop the aiOn Smart Wellness Ring';
+    document.title = 'Shop the JCRingforlife Smart Wellness Ring';
     window.scrollTo(0, 0);
   }, []);
 
@@ -28,7 +28,7 @@ export default function ShopPage() {
   const handleAddToCart = () => {
     const sizeObj = RING_SIZES.find((s) => s.value === selectedSize);
     addItem({
-      name: 'aiOn Smart Ring (Founder Edition)',
+      name: 'JCRingforlife Smart Ring (Founder Edition)',
       finishId: selectedFinish.id,
       finishName: selectedFinish.name,
       size: sizeObj ? sizeObj.label : 'Free Sizing Kit First',

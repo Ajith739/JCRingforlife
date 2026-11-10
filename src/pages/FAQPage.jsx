@@ -12,7 +12,7 @@ export default function FAQPage() {
   const [openIndices, setOpenIndices] = useState([0]);
 
   useEffect(() => {
-    document.title = 'Frequently Asked Questions & Support | aiOn';
+    document.title = 'Frequently Asked Questions & Support | JCRingforlife';
     window.scrollTo(0, 0);
   }, []);
 
@@ -45,7 +45,7 @@ export default function FAQPage() {
             Frequently Asked Questions
           </h1>
           <p className="mt-3 text-base font-light text-ink-soft leading-relaxed">
-            Everything you need to know about the aiOn smart wellness ring, sensors, sizing kits, and transparent membership.
+            Everything you need to know about the JCRingforlife smart wellness ring, sensors, sizing kits, and transparent membership.
           </p>
 
           {/* Search Bar */}

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function AccessibilityPage() {
   useEffect(() => {
-    document.title = 'Accessibility Statement - aiOn';
+    document.title = 'Accessibility Statement - JCRingforlife';
     window.scrollTo(0, 0);
   }, []);
 
@@ -30,7 +30,7 @@ export default function AccessibilityPage() {
           <section className="space-y-3">
             <h2 className="text-xl font-medium text-ink">1. Our Standard</h2>
             <p>
-              aiOn Health Science LLC is dedicated to digital accessibility for individuals of all abilities. We actively continually review and enhance our web applications according to the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA.
+              JCRingforlife LLC is dedicated to digital accessibility for individuals of all abilities. We actively continually review and enhance our web applications according to the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA.
             </p>
           </section>
 
@@ -47,7 +47,7 @@ export default function AccessibilityPage() {
           <section className="space-y-3 pt-6 border-t border-border">
             <h2 className="text-xl font-medium text-ink">3. Feedback & Contact</h2>
             <p>
-              If you experience any accessibility barrier while browsing our site or placing a pre-order, please contact us at <a href="mailto:contact@aionrings.com" className="text-primary hover:underline font-semibold">contact@aionrings.com</a> with "Accessibility Assistance" in the subject line.
+              If you experience any accessibility barrier while browsing our site or placing a pre-order, please contact us at <a href="mailto:contact@jcringforlife.com" className="text-primary hover:underline font-semibold">contact@jcringforlife.com</a> with "Accessibility Assistance" in the subject line.
             </p>
           </section>
         </div>
@@ -55,4 +55,3 @@ export default function AccessibilityPage() {
     </div>
   );
 }
-

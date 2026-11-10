@@ -1,21 +1,24 @@
 import React from 'react';
-import { ShieldAlert } from 'lucide-react';
 
 export default function MedicalDisclaimerSection() {
   return (
-    <section className="relative py-16 md:py-24 bg-white border-t border-border">
-      <div className="container mx-auto px-6 max-w-4xl">
-        <div className="rounded-3xl border border-border/80 bg-canvas p-7 md:p-10 text-center backdrop-blur-xl">
-          <div className="mx-auto w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-600 mb-3">
-            <ShieldAlert className="w-5 h-5" />
-          </div>
-          <p className="eyebrow text-ink-muted">General Wellness Product</p>
-          <div className="mt-4 space-y-3 text-xs md:text-sm font-light text-ink-soft leading-relaxed max-w-2xl mx-auto">
+    <section className="relative py-16 md:py-20" style={{ background: 'rgb(255, 255, 255)' }}>
+      <div className="container mx-auto px-6">
+        <div
+          className="mx-auto max-w-3xl rounded-3xl border p-7 md:p-9 text-center backdrop-blur-xl"
+          style={{
+            borderColor: 'rgb(227, 233, 242)',
+            background: 'rgb(246, 248, 252)',
+          }}
+        >
+          <p className="eyebrow">General wellness product</p>
+          <div className="mt-4 space-y-3 text-sm md:text-[15px] font-light text-ink-soft leading-relaxed">
+            <p>JCRingforlife Ring is intended for general wellness purposes only and is not a medical device.</p>
             <p>
-              aiOn Ring is intended for general wellness and physical fitness awareness only. It is <strong>not a medical device</strong> and is not cleared, approved, or regulated to diagnose, treat, cure, or prevent any illness, disease, or pathological condition.
+              The information provided by JCRingforlife Ring is for informational purposes only and is not intended to diagnose, treat, cure, or prevent any disease or medical condition.
             </p>
             <p>
-              Metrics including estimated blood pressure trends and metabolic indices represent statistical approximations of wellness patterns, not clinical readings. Never make changes to prescribed medications, therapy, or clinical treatment plans without consulting your personal physician or licensed healthcare provider.
+              Always consult a qualified healthcare professional regarding any medical concerns or before making healthcare decisions.
             </p>
           </div>
         </div>
@@ -23,4 +26,3 @@ export default function MedicalDisclaimerSection() {
     </section>
   );
 }
-

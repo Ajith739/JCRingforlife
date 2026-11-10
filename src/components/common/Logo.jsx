@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function Logo({
   className = '',
-  width = 130,
+  width = 160,
   showTagline = false,
-  gradientId = 'aionLogoGradient',
+  gradientId = 'jcringLogoGradient',
 }) {
-  const height = showTagline ? width * 0.65 : width * 0.5;
-  const viewBox = showTagline ? '0 0 120 78' : '0 0 120 60';
+  const height = showTagline ? width * 0.36 : width * 0.24;
+  const viewBox = showTagline ? '0 0 240 84' : '0 0 240 56';
 
   return (
     <svg
@@ -17,7 +17,7 @@ export default function Logo({
       viewBox={viewBox}
       xmlns="http://www.w3.org/2000/svg"
       role="img"
-      aria-label="aiOn"
+      aria-label="JCRingforlife"
     >
       <defs>
         <linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="100%">
@@ -26,57 +26,60 @@ export default function Logo({
           <stop offset="100%" stopColor="#6D28D9" />
         </linearGradient>
       </defs>
-      {/* "ai" */}
+      {/* "JC" in bold brand color */}
       <text
-        x="8"
-        y="42"
+        x="6"
+        y="38"
         textAnchor="start"
         fill="currentColor"
-        fontFamily="'Inter', -apple-system, sans-serif"
+        fontFamily="'Inter', -apple-system, BlinkMacSystemFont, sans-serif"
         fontWeight="800"
-        fontSize="34"
-        letterSpacing="-1.5"
+        fontSize="30"
+        letterSpacing="-1.2"
       >
-        ai
+        JC
       </text>
-      {/* Smart Ring "O" */}
-      <circle
-        cx="60"
-        cy="30"
-        r="12"
-        fill="none"
-        stroke={`url(#${gradientId})`}
-        strokeWidth="4.5"
-      />
-      {/* "n" */}
+      {/* "Ring" in vibrant brand gradient */}
       <text
-        x="76"
-        y="42"
+        x="52"
+        y="38"
+        textAnchor="start"
+        fill={`url(#${gradientId})`}
+        fontFamily="'Inter', -apple-system, BlinkMacSystemFont, sans-serif"
+        fontWeight="700"
+        fontSize="30"
+        letterSpacing="-1"
+      >
+        Ring
+      </text>
+      {/* "forlife" in elegant clean weight */}
+      <text
+        x="122"
+        y="38"
         textAnchor="start"
         fill="currentColor"
-        fontFamily="'Inter', -apple-system, sans-serif"
-        fontWeight="800"
-        fontSize="34"
-        letterSpacing="-1.5"
+        fontFamily="'Inter', -apple-system, BlinkMacSystemFont, sans-serif"
+        fontWeight="400"
+        fontSize="30"
+        letterSpacing="-0.8"
       >
-        n
+        forlife
       </text>
       {/* Optional Tagline */}
       {showTagline && (
         <text
-          x="60"
-          y="66"
+          x="120"
+          y="70"
           textAnchor="middle"
           fill="#6B7A8C"
           fontFamily="'Inter', sans-serif"
           fontWeight="500"
-          fontSize="7"
-          letterSpacing="2"
+          fontSize="9"
+          letterSpacing="2.5"
         >
-          VITAL · LIFE · FORCE
+          THE FULL CIRCLE OF HEALTH
         </text>
       )}
     </svg>
   );
 }
-

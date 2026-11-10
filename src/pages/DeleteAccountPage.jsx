@@ -8,7 +8,7 @@ export default function DeleteAccountPage() {
   const [done, setDone] = useState(false);
 
   useEffect(() => {
-    document.title = 'Delete Account & Biometric Data Erasure - aiOn';
+    document.title = 'Delete Account & Biometric Data Erasure - JCRingforlife';
     window.scrollTo(0, 0);
   }, []);
 
@@ -36,7 +36,7 @@ export default function DeleteAccountPage() {
           </div>
 
           <p className="text-sm font-light text-ink-soft leading-relaxed">
-            In compliance with GDPR Article 17 and CCPA, you may initiate the permanent erasure of your aiOn account, personal identity information, and historical cloud biometric telemetry.
+            In compliance with GDPR Article 17 and CCPA, you may initiate the permanent erasure of your JCRingforlife account, personal identity information, and historical cloud biometric telemetry.
           </p>
 
           <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-xs text-amber-800 space-y-1">
@@ -84,7 +84,7 @@ export default function DeleteAccountPage() {
                   className="mt-0.5 rounded text-rose-600 focus:ring-rose-500"
                 />
                 <span>
-                  I understand this will permanently delete my aiOn cloud account and all historical sleep and recovery telemetry.
+                  I understand this will permanently delete my JCRingforlife cloud account and all historical sleep and recovery telemetry.
                 </span>
               </label>
 

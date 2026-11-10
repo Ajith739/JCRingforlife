@@ -8,7 +8,7 @@ export default function SupportPage() {
   const [lookupResult, setLookupResult] = useState(null);
 
   useEffect(() => {
-    document.title = 'Support & Customer Care | aiOn';
+    document.title = 'Support & Customer Care | JCRingforlife';
     window.scrollTo(0, 0);
   }, []);
 
@@ -46,13 +46,13 @@ export default function SupportPage() {
         <div className="p-8 rounded-3xl bg-white border border-border shadow-card mb-12">
           <h2 className="text-xl font-light text-ink mb-2">Check Pre-Order Status</h2>
           <p className="text-xs text-ink-soft mb-6">
-            Enter your email or reservation confirmation code (e.g., AION-8492).
+            Enter your email or reservation confirmation code (e.g., JCRING-8492).
           </p>
 
           <form onSubmit={handleLookup} className="flex flex-col sm:flex-row gap-3">
             <input
               type="text"
-              placeholder="Enter email or Order ID (e.g. AION-7281)..."
+              placeholder="Enter email or Order ID (e.g. JCRING-7281)..."
               value={orderQuery}
               onChange={(e) => setOrderQuery(e.target.value)}
               className="flex-1 px-4 py-3 rounded-xl border border-border text-sm text-ink placeholder:text-ink-muted focus:outline-none focus:ring-2 focus:ring-primary"

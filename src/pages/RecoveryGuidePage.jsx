@@ -4,7 +4,7 @@ import { Activity, ArrowLeft, ArrowRight, Check } from 'lucide-react';
 
 export default function RecoveryGuidePage() {
   useEffect(() => {
-    document.title = 'Recovery Ring: HRV, Readiness & Training Load Explained | aiOn';
+    document.title = 'Recovery Ring: HRV, Readiness & Training Load Explained | JCRingforlife';
     window.scrollTo(0, 0);
   }, []);
 
@@ -50,7 +50,7 @@ export default function RecoveryGuidePage() {
               Many wearable apps make the catastrophic error of comparing your HRV against arbitrary population averages. A 25-year-old endurance runner might have an HRV of 90 ms, while an equally healthy 55-year-old executive may average 38 ms.
             </p>
             <p>
-              aiOn builds a rolling 14-day statistical baseline calibrated strictly to your personal biology. Your Vitality Score responds solely to deviations from your established normal range.
+              JCRingforlife builds a rolling 14-day statistical baseline calibrated strictly to your personal biology. Your Vitality Score responds solely to deviations from your established normal range.
             </p>
           </section>
 

@@ -49,13 +49,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        aion: {
+        jcring: {
           midnight: "var(--finish-midnight, #1A1F2C)",
           silver: "var(--finish-silver, #DCDDE1)",
           rose: "var(--finish-rose, #E6B8A2)",
-          teal: "hsl(var(--aion-teal))",
-          cyan: "hsl(var(--aion-cyan))",
-          violet: "hsl(var(--aion-violet))",
+          teal: "hsl(var(--jcring-teal))",
+          cyan: "hsl(var(--jcring-cyan))",
+          violet: "hsl(var(--jcring-violet))",
         },
       },
       borderRadius: {

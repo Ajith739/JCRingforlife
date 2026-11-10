@@ -80,7 +80,7 @@ export default function CartDrawer() {
                       onClick={closeCart}
                       className="btn-brand text-sm"
                     >
-                      Shop aiOn Ring
+                      Shop JCRingforlife Ring
                     </Link>
                   </div>
                 ) : (
@@ -179,7 +179,7 @@ export default function CartDrawer() {
                       <span className="text-emerald-600 font-medium">FREE</span>
                     </div>
                     <div className="flex justify-between text-xs text-ink-soft">
-                      <span>aiOn Vitals Lifetime App</span>
+                      <span>JCRingforlife Vitals Lifetime App</span>
                       <span className="text-emerald-600 font-medium">Included ($0)</span>
                     </div>
                     <div className="flex justify-between text-base font-semibold text-ink pt-2 border-t border-border">

@@ -4,10 +4,11 @@ import HeroSection from '../components/home/HeroSection';
 import LifestyleBannerSection from '../components/home/LifestyleBannerSection';
 import ProblemStatementSection from '../components/home/ProblemStatementSection';
 import VitalityLoopSection from '../components/home/VitalityLoopSection';
-import FourPillarsSection from '../components/home/FourPillarsSection';
+import ApproachSection from '../components/home/ApproachSection';
+import SignalsSection from '../components/home/SignalsSection';
 import ParallaxBreakBanner from '../components/home/ParallaxBreakBanner';
 import QuestsSection from '../components/home/QuestsSection';
-import PreorderOfferCard from '../components/home/PreorderOfferCard';
+import HrvTrendSection from '../components/home/HrvTrendSection';
 import AppShowcaseSection from '../components/home/AppShowcaseSection';
 import HardwareSpecsSection from '../components/home/HardwareSpecsSection';
 import FinishesSection from '../components/home/FinishesSection';
@@ -20,7 +21,7 @@ export default function HomePage() {
   const location = useLocation();
 
   useEffect(() => {
-    document.title = 'aiOn Smart Ring - Sleep, Recovery & Stress Tracking Ring';
+    document.title = 'JCRingforlife Smart Ring - Sleep, Recovery & Stress Tracking Ring';
     if (location.hash) {
       const el = document.querySelector(location.hash);
       if (el) {
@@ -32,22 +33,25 @@ export default function HomePage() {
   return (
     <div className="min-h-screen text-ink bg-canvas">
       <main>
-        {/* 1. Hero Section */}
+        {/* Section 0: Hero Section */}
         <HeroSection />
 
-        {/* 2. Lifestyle Banner Video */}
+        {/* Section 1: Lifestyle Banner Video */}
         <LifestyleBannerSection />
 
-        {/* 3. Problem Statement & Heartbeat ECG */}
+        {/* Section 2: Problem Statement & Heartbeat ECG */}
         <ProblemStatementSection />
 
-        {/* 4. The Vitality Loop: Track, Understand, Act */}
+        {/* Section 3: Vitality Score Loop (id: "how") */}
         <VitalityLoopSection />
 
-        {/* 5. Four Pillars of Health Signals */}
-        <FourPillarsSection />
+        {/* Section 4: Other Rings Track. JCRingforlife Acts (id: "approach") */}
+        <ApproachSection />
 
-        {/* 6. Parallax Media Banner: Movement & Activity */}
+        {/* Section 5: Everything Your Body Is Telling You - 6 Signals (id: "signals") */}
+        <SignalsSection />
+
+        {/* Section 6: Movement · Activity Banner */}
         <ParallaxBreakBanner
           src="/assets/nature-walk-ring-BdKlJFoj.jpg"
           eyebrow="Movement · Activity"
@@ -56,43 +60,42 @@ export default function HomePage() {
           position="center 40%"
         />
 
-        {/* 7. Actionable Quests */}
+        {/* Section 7: Today's Quests */}
         <QuestsSection />
 
-        {/* 8. Founder Edition Pre-order Offer Card */}
-        <PreorderOfferCard />
+        {/* Section 8: HRV Trend Last 14 Days */}
+        <HrvTrendSection />
 
-        {/* 9. Companion App Experience */}
+        {/* Section 9: Companion App Experience (id: "app") */}
         <AppShowcaseSection />
 
-        {/* 10. Titanium Hardware & Sensors */}
+        {/* Section 10: Titanium Hardware Specs & 3 Finishes (id: "ring") */}
         <HardwareSpecsSection />
 
-        {/* 11. Finishes in Life (Move, Rest, Morning) */}
+        {/* Section 11: In Life - 3 Video Moments (id: "in-life") */}
         <FinishesSection />
 
-        {/* 12. Parallax Media Banner: Sleep & Recovery */}
+        {/* Section 12: Sleep · Recovery Banner */}
         <ParallaxBreakBanner
           src="/assets/nature-restful-night-BUfEgpbZ.jpg"
           eyebrow="Sleep · Recovery"
           title="The quietest hours shape the loudest days."
-          line="aiOn follows your sleep and recovery patterns, gently, all night."
+          line="JCRingforlife follows your sleep and recovery patterns, gently, all night."
           position="center 50%"
         />
 
-        {/* 13. Transparent Membership & Competitor Comparison */}
+        {/* Section 13: Membership Tiers & Pricing */}
         <MembershipComparisonSection />
 
-        {/* 14. Mountain Trail Runner Banner & Final CTA */}
+        {/* Section 14: Mountain Trail Runner Banner & Final CTA */}
         <RunningBannerSection />
 
-        {/* 15. FAQ Accordion */}
+        {/* Section 15: FAQ Accordion (id: "faq") */}
         <FAQAccordionSection />
 
-        {/* 16. FDA / General Wellness Disclaimer */}
+        {/* Section 16: FDA / General Wellness Disclaimer */}
         <MedicalDisclaimerSection />
       </main>
     </div>
   );
 }
-

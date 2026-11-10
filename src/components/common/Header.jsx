@@ -10,7 +10,7 @@ const NAV_LINKS = [
   { href: '/app', label: 'The App', route: true },
   { href: '#ring', label: 'The Ring' },
   { href: '/partners', label: 'Partners', route: true },
-  { href: '/faq', label: 'FAQ', route: true },
+  { href: '/preorder', label: 'Pre-Order', route: true },
 ];
 
 export default function Header() {
@@ -58,9 +58,9 @@ export default function Header() {
   return (
     <>
       <header
-        className="fixed top-0 left-0 right-0 z-40 transition-all duration-300"
+        className="fixed top-0 left-0 right-0 z-50 transition-all duration-[250ms]"
         style={{
-          background: scrolled ? 'rgba(255, 255, 255, 0.85)' : 'transparent',
+          background: scrolled ? 'rgba(255, 255, 255, 0.82)' : 'transparent',
           backdropFilter: scrolled ? 'blur(20px)' : 'none',
           WebkitBackdropFilter: scrolled ? 'blur(20px)' : 'none',
           borderBottom: scrolled ? '1px solid hsl(var(--border))' : '1px solid transparent',
@@ -70,14 +70,14 @@ export default function Header() {
           {/* Logo */}
           <button
             onClick={handleLogoClick}
-            aria-label="aiOn home"
-            className="focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg transition-transform hover:opacity-90"
+            aria-label="JCRingforlife home"
+            className="focus:outline-none flex items-center"
           >
-            <Logo width={110} />
+            <Logo width={145} />
           </button>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-7 lg:gap-8">
+          <nav className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map((link, idx) =>
               link.route ? (
                 <Link
@@ -101,29 +101,29 @@ export default function Header() {
           </nav>
 
           {/* Right Action Cluster */}
-          <div className="flex items-center gap-3 sm:gap-4">
-            {/* Cart Trigger Button */}
-            <button
-              type="button"
-              onClick={openCart}
-              className="relative p-2.5 rounded-full text-ink-soft hover:text-ink hover:bg-white/80 transition-all border border-border/60 shadow-sm"
-              aria-label={`Shopping Cart (${totalItems} items)`}
-            >
-              <ShoppingBag className="w-5 h-5" />
-              {totalItems > 0 && (
-                <span className="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-gradient-to-r from-[#00A9E0] to-[#1878E0] text-[11px] font-bold text-white shadow-sm animate-in zoom-in-50 duration-200">
+          <div className="flex items-center gap-3">
+            {/* Cart Trigger Button (always available when items added) */}
+            {totalItems > 0 && (
+              <button
+                type="button"
+                onClick={openCart}
+                className="relative p-2 rounded-full text-ink-soft hover:text-ink transition-all"
+                aria-label={`Shopping Cart (${totalItems} items)`}
+              >
+                <ShoppingBag className="w-5 h-5" />
+                <span className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-gradient-to-r from-[#00A9E0] to-[#1878E0] text-[10px] font-bold text-white shadow-sm">
                   {totalItems}
                 </span>
-              )}
-            </button>
+              </button>
+            )}
 
-            {/* Pre-order CTA */}
+            {/* Pre-order CTA matching exact original button */}
             <Link
               to="/preorder"
-              aria-label="Pre-order aiOn Ring"
-              className="hidden sm:inline-flex items-center rounded-full px-5 py-2.5 text-[14px] font-semibold text-white transition-all duration-150 hover:brightness-110 hover:scale-[1.02] shadow-sm"
+              aria-label="Pre-order JCRingforlife Ring"
+              className="hidden sm:inline-flex items-center rounded-full px-6 py-2.5 text-[14px] font-semibold text-white transition-all duration-150 hover:brightness-110 hover:scale-[1.02]"
               style={{
-                background: 'linear-gradient(135deg, #00A9E0 0%, #1878E0 50%, #6D28D9 100%)',
+                background: 'linear-gradient(135deg,#00A9E0,#1878E0,#6D28D9)',
               }}
             >
               Pre-Order →
@@ -132,11 +132,11 @@ export default function Header() {
             {/* Mobile Menu Toggle */}
             <button
               type="button"
-              className="md:hidden text-ink p-2 rounded-lg hover:bg-canvas transition-colors"
+              className="md:hidden text-ink p-2"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
             >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
           </div>
         </div>
@@ -144,21 +144,14 @@ export default function Header() {
 
       {/* Mobile Drawer Menu */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 z-30 flex flex-col items-center justify-center gap-7 bg-white/98 backdrop-blur-2xl md:hidden px-6 text-center animate-in fade-in duration-200">
-          <button
-            onClick={handleLogoClick}
-            className="mb-4 focus:outline-none"
-          >
-            <Logo width={130} showTagline={true} />
-          </button>
-
+        <div className="fixed inset-0 z-40 flex flex-col items-center justify-center gap-8 bg-white md:hidden">
           {NAV_LINKS.map((link, idx) =>
             link.route ? (
               <Link
                 key={idx}
                 to={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className="text-2xl font-light text-ink hover:text-primary transition-colors"
+                className="text-2xl font-medium text-ink"
               >
                 {link.label}
               </Link>
@@ -167,35 +160,25 @@ export default function Header() {
                 key={idx}
                 type="button"
                 onClick={() => handleNavClick(link)}
-                className="text-2xl font-light text-ink hover:text-primary transition-colors"
+                className="text-2xl font-medium text-ink"
               >
                 {link.label}
               </button>
             )
           )}
 
-          <div className="pt-4 flex flex-col gap-3 w-full max-w-xs">
-            <Link
-              to="/preorder"
-              onClick={() => setMobileMenuOpen(false)}
-              className="rounded-full px-8 py-4 text-[15px] font-semibold text-white shadow-lg"
-              style={{
-                background: 'linear-gradient(135deg, #00A9E0, #1878E0, #6D28D9)',
-              }}
-            >
-              Pre-Order Founder Edition →
-            </Link>
-            <Link
-              to="/shop"
-              onClick={() => setMobileMenuOpen(false)}
-              className="btn-secondary py-3 text-sm"
-            >
-              Explore Shop
-            </Link>
-          </div>
+          <Link
+            to="/preorder"
+            onClick={() => setMobileMenuOpen(false)}
+            className="mt-6 rounded-full px-8 py-4 text-[15px] font-semibold text-white"
+            style={{
+              background: 'linear-gradient(135deg,#00A9E0,#1878E0,#6D28D9)',
+            }}
+          >
+            Pre-Order →
+          </Link>
         </div>
       )}
     </>
   );
 }
-

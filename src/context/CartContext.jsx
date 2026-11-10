@@ -13,7 +13,7 @@ export const useCart = () => {
 export const CartProvider = ({ children }) => {
   const [items, setItems] = useState(() => {
     try {
-      const saved = localStorage.getItem('aion_cart_v1');
+      const saved = localStorage.getItem('jcring_cart_v1') || localStorage.getItem('aion_cart_v1');
       return saved ? JSON.parse(saved) : [];
     } catch (e) {
       console.error('Failed to load cart from storage', e);
@@ -25,7 +25,7 @@ export const CartProvider = ({ children }) => {
 
   useEffect(() => {
     try {
-      localStorage.setItem('aion_cart_v1', JSON.stringify(items));
+      localStorage.setItem('jcring_cart_v1', JSON.stringify(items));
     } catch (e) {
       console.error('Failed to save cart to storage', e);
     }
@@ -45,7 +45,7 @@ export const CartProvider = ({ children }) => {
 
       const newItem = {
         id: `${product.finishId || 'midnight'}-${product.size || 'sizing-kit'}-${Date.now()}`,
-        name: product.name || 'aiOn Smart Ring',
+        name: product.name || 'JCRingforlife Smart Ring',
         finishId: product.finishId || 'midnight',
         finishName: product.finishName || 'Midnight',
         size: product.size || 'Free Sizing Kit First',

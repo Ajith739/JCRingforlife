@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function TrademarksPage() {
   useEffect(() => {
-    document.title = 'Trademarks & Intellectual Property - aiOn';
+    document.title = 'Trademarks & Intellectual Property - JCRingforlife';
     window.scrollTo(0, 0);
   }, []);
 
@@ -23,14 +23,14 @@ export default function TrademarksPage() {
               Trademarks & Intellectual Property
             </h1>
             <p className="text-xs text-ink-muted mt-2">
-              aiOn Health Science LLC · A Mazo Solutions Inc Company
+              JCRingforlife LLC · A Mazo Solutions Inc Company
             </p>
           </div>
 
           <section className="space-y-3">
             <h2 className="text-xl font-medium text-ink">1. Protected Marks</h2>
             <p>
-              "aiOn", the stylized aiOn circular ring glyph logo, "Vitality Score", "The Full Circle of Health", and "aiOn Vitals" are registered trademarks or common-law service marks of aiOn Health Science LLC and Mazo Solutions Inc. in the United States and international jurisdictions.
+              "JCRingforlife", the stylized JCRingforlife circular ring glyph logo, "Vitality Score", "The Full Circle of Health", and "JCRingforlife Vitals" are registered trademarks or common-law service marks of JCRingforlife LLC and Mazo Solutions Inc. in the United States and international jurisdictions.
             </p>
           </section>
 
@@ -52,4 +52,3 @@ export default function TrademarksPage() {
     </div>
   );
 }
-

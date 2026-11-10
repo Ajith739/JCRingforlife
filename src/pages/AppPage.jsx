@@ -46,7 +46,7 @@ export default function AppPage() {
   const [selectedModule, setSelectedModule] = useState(APP_MODULES[0]);
 
   useEffect(() => {
-    document.title = 'Download the aiOn App | aiOn Smart Ring';
+    document.title = 'Download the JCRingforlife App | JCRingforlife Smart Ring';
     window.scrollTo(0, 0);
   }, []);
 
@@ -66,7 +66,7 @@ export default function AppPage() {
             Designed for 15 Seconds of Clarity.
           </h1>
           <p className="mt-4 text-base md:text-lg font-light text-ink-soft leading-relaxed">
-            The aiOn app for iOS and Android doesn’t want you glued to your phone. It translates biometric complexity into one daily direction. Included free for life with every ring.
+            The JCRingforlife app for iOS and Android doesn’t want you glued to your phone. It translates biometric complexity into one daily direction. Included free for life with every ring.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -148,11 +148,11 @@ export default function AppPage() {
         <div className="rounded-3xl bg-gradient-to-r from-white via-primary/5 to-white border border-primary/20 p-8 text-center shadow-sm">
           <h3 className="text-2xl font-light text-ink">Zero App Subscription Fees</h3>
           <p className="mt-2 text-sm font-light text-ink-soft max-w-xl mx-auto leading-relaxed">
-            Every feature shown above is included with your aiOn Founder Edition ring. We will never hold your health trends or sleep stages behind a monthly paywall.
+            Every feature shown above is included with your JCRingforlife Founder Edition ring. We will never hold your health trends or sleep stages behind a monthly paywall.
           </p>
           <div className="mt-6">
             <Link to="/preorder" className="btn-brand py-3.5 px-8 text-sm">
-              Pre-Order aiOn Ring ($149) →
+              Pre-Order JCRingforlife Ring ($149) →
             </Link>
           </div>
         </div>

@@ -8,7 +8,7 @@ export default function CookieBanner() {
 
   useEffect(() => {
     try {
-      const choice = localStorage.getItem('aion_cookie_choice');
+      const choice = localStorage.getItem('jcring_cookie_choice') || localStorage.getItem('aion_cookie_choice');
       if (!choice) {
         const timer = setTimeout(() => setVisible(true), 800);
         return () => clearTimeout(timer);
@@ -21,7 +21,7 @@ export default function CookieBanner() {
   const handleChoice = (type) => {
     try {
       localStorage.setItem(
-        'aion_cookie_choice',
+        'jcring_cookie_choice',
         JSON.stringify({ choice: type, timestamp: new Date().toISOString() })
       );
     } catch (e) {}
@@ -59,7 +59,7 @@ export default function CookieBanner() {
                   We value your privacy
                 </h3>
                 <p id="cookie-desc" className="text-xs md:text-sm text-ink-soft leading-relaxed mb-4">
-                  aiOn uses essential cookies for site functionality and privacy-preserving metrics. We never sell your personal or biometric data. Learn more in our{' '}
+                  JCRingforlife uses essential cookies for site functionality and privacy-preserving metrics. We never sell your personal or biometric data. Learn more in our{' '}
                   <Link to="/cookie-policy" className="text-primary hover:underline font-medium">
                     Cookie Policy
                   </Link>

@@ -32,7 +32,7 @@ const ARTICLES = [
 
 export default function SmartRingGuidePage() {
   useEffect(() => {
-    document.title = 'The Complete Smart Ring Guide | aiOn Science';
+    document.title = 'The Complete Smart Ring Guide | JCRingforlife Science';
     window.scrollTo(0, 0);
   }, []);
 

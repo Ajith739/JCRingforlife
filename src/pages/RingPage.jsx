@@ -6,7 +6,7 @@ import { RING_FINISHES } from '../data/products';
 
 export default function RingPage() {
   useEffect(() => {
-    document.title = 'aiOn Ring - Specs, Materials & Size Chart';
+    document.title = 'JCRingforlife Ring - Specs, Materials & Size Chart';
     window.scrollTo(0, 0);
   }, []);
 
@@ -28,7 +28,7 @@ export default function RingPage() {
             Medical-grade interior.
           </h1>
           <p className="mt-4 text-base md:text-lg font-light text-ink-soft leading-relaxed">
-            Every millimeter of the aiOn ring is engineered to capture rich autonomic signals around the clock without demanding your attention.
+            Every millimeter of the JCRingforlife ring is engineered to capture rich autonomic signals around the clock without demanding your attention.
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function RingPage() {
         <div className="relative rounded-3xl bg-white border border-border p-8 md:p-14 shadow-card mb-16 text-center">
           <img
             src="/assets/ring-product-CoCbYrjo.jpg"
-            alt="aiOn Smart Ring Hardware Exploded Architecture"
+            alt="JCRingforlife Smart Ring Hardware Exploded Architecture"
             className="w-full max-w-2xl mx-auto h-auto object-contain rounded-2xl"
           />
         </div>
@@ -106,7 +106,7 @@ export default function RingPage() {
 
         {/* CTA Card */}
         <div className="rounded-3xl bg-gradient-to-r from-ink to-[#1E293B] text-white p-8 md:p-12 text-center shadow-soft">
-          <h2 className="text-3xl font-light">Experience the aiOn Ring</h2>
+          <h2 className="text-3xl font-light">Experience the JCRingforlife Ring</h2>
           <p className="mt-2 text-sm text-white/80 max-w-xl mx-auto">
             Reserve your Founder Edition ring today. Free worldwide shipping and complimentary sizing kit included.
           </p>

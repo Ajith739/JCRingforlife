@@ -6,12 +6,13 @@ export default function CookiePolicyPage() {
   const [resetSuccess, setResetSuccess] = useState(false);
 
   useEffect(() => {
-    document.title = 'Cookie Policy - aiOn Health Science';
+    document.title = 'Cookie Policy - JCRingforlife Health Science';
     window.scrollTo(0, 0);
   }, []);
 
   const handleResetPreferences = () => {
     try {
+      localStorage.removeItem('jcring_cookie_choice');
       localStorage.removeItem('aion_cookie_choice');
       setResetSuccess(true);
       setTimeout(() => setResetSuccess(false), 3000);
@@ -34,7 +35,7 @@ export default function CookiePolicyPage() {
               Cookie Policy
             </h1>
             <p className="text-xs text-ink-muted mt-2">
-              Last Updated: November 2026 · aiOn Health Science LLC
+              Last Updated: November 2026 · JCRingforlife LLC
             </p>
           </div>
 

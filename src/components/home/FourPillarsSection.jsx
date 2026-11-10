@@ -28,7 +28,7 @@ const PILLARS = [
       { label: 'Sleep Stages', desc: 'Accurately quantifies the critical restorative Deep and REM sleep cycles without wrist bulk.' },
       { label: 'Sleep Quality Score', desc: 'Combines overnight restlessness, duration, and nocturnal HRV dip into one composite score.' },
       { label: 'Blood Oxygen (SpO₂)', desc: 'Infrared LEDs track nocturnal oxygen saturation to ensure uninterrupted breathing.' },
-      { label: 'Optimal Sleep Window', desc: 'aiOn recommends your ideal bedtime based on your circadian temperature curve.' },
+      { label: 'Optimal Sleep Window', desc: 'JCRingforlife recommends your ideal bedtime based on your circadian temperature curve.' },
     ],
   },
   {

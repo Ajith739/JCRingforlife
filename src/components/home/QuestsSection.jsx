@@ -1,92 +1,131 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Wind, Coffee, Footprints, ArrowUpRight, Sparkles } from 'lucide-react';
-
-const QUESTS = [
-  {
-    title: 'Box breathing · 4 min',
-    tag: 'Autonomic Reset',
-    metric: 'HRV +12 ms',
-    desc: '4 seconds inhale, 4 hold, 4 exhale, 4 hold. Immediately suppresses midday sympathetic surge.',
-    icon: Wind,
-    color: 'text-sky-500 bg-sky-50',
-  },
-  {
-    title: 'No caffeine after 2:00 PM',
-    tag: 'Adenosine Protection',
-    metric: 'Deep Sleep +24 min',
-    desc: 'Clears adenosine receptor competition before bedtime, directly lengthening Stage 3 slow-wave sleep.',
-    icon: Coffee,
-    color: 'text-amber-500 bg-amber-50',
-  },
-  {
-    title: '10-minute post-meal walk',
-    tag: 'Metabolic Balance',
-    metric: 'Recovery +8%',
-    desc: 'Mild muscle contraction flattens glucose excursion spikes without taxing your nervous system.',
-    icon: Footprints,
-    color: 'text-emerald-500 bg-emerald-50',
-  },
-];
 
 export default function QuestsSection() {
   return (
-    <section className="relative overflow-hidden bg-white py-24 md:py-36 border-t border-border">
-      <div className="container mx-auto px-6 max-w-6xl">
-        <div className="text-center max-w-2xl mx-auto mb-16 md:mb-20">
-          <span className="eyebrow text-primary">ACT: Daily Direction</span>
-          <h2 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-light tracking-tight text-ink">
-            One Quest a Day. That’s It.
+    <section className="relative overflow-hidden bg-white py-14 sm:py-16 md:py-24">
+      <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
+        <img
+          src="/assets/nature-calm-water-AzJi5gar.jpg"
+          alt=""
+          loading="lazy"
+          className="h-full w-full object-cover"
+          style={{ objectPosition: 'center 60%', opacity: 0.24, filter: 'saturate(0.85)' }}
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              'linear-gradient(rgba(255, 255, 255, 0.94) 0%, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.94) 100%)',
+          }}
+        />
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+          className="text-center max-w-3xl mx-auto"
+        >
+          <h2 className="text-4xl md:text-6xl font-extralight text-ink leading-[1.05]">
+            The one thing<br />you should do today.
           </h2>
-          <p className="mt-4 text-base font-light text-ink-soft leading-relaxed">
-            Other wearables dump endless charts on your screen and leave you guessing. aiOn extracts the single highest-impact action for today.
+          <p className="mt-4 md:mt-5 text-ink-soft text-base md:text-lg font-light">
+            Every morning. Built for your body.<br />Based on your last 7 days.
           </p>
+        </motion.div>
+
+        <div className="mt-9 md:mt-12 grid md:grid-cols-3 gap-5">
+          {/* Card 1 */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="rounded-3xl border p-6"
+            style={{
+              borderColor: 'rgb(227, 233, 242)',
+              background: 'rgb(255, 255, 255)',
+              boxShadow: 'rgba(10, 22, 40, 0.25) 0px 20px 50px -25px',
+            }}
+          >
+            <span className="text-[10px] tracking-[0.25em] text-ink-muted uppercase">
+              TODAY'S QUEST · HRV
+            </span>
+            <h3 className="mt-4 text-2xl font-light text-ink">Box breathing</h3>
+            <div className="mt-6 flex items-center justify-end gap-2 text-sm font-light text-ink-soft">
+              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="#1878E0" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M3 12c2-4 4-4 6 0s4 4 6 0 4-4 6 0" />
+              </svg>
+              HRV
+            </div>
+          </motion.div>
+
+          {/* Card 2 */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, delay: 0.15 }}
+            className="rounded-3xl border p-6"
+            style={{
+              borderColor: 'rgb(227, 233, 242)',
+              background: 'rgb(255, 255, 255)',
+              boxShadow: 'rgba(10, 22, 40, 0.25) 0px 20px 50px -25px',
+            }}
+          >
+            <span className="text-[10px] tracking-[0.25em] text-ink-muted uppercase">
+              TODAY'S QUEST · SLEEP
+            </span>
+            <h3 className="mt-4 text-2xl font-light text-ink">No caffeine after 2pm</h3>
+            <div className="mt-6 flex items-center justify-end gap-2 text-sm font-light text-ink-soft">
+              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="#1878E0" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M20 14.4A8 8 0 1 1 9.6 4 6.5 6.5 0 0 0 20 14.4z" />
+              </svg>
+              Sleep
+            </div>
+          </motion.div>
+
+          {/* Card 3 */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, delay: 0.3 }}
+            className="rounded-3xl border p-6"
+            style={{
+              borderColor: 'rgb(227, 233, 242)',
+              background: 'rgb(255, 255, 255)',
+              boxShadow: 'rgba(10, 22, 40, 0.25) 0px 20px 50px -25px',
+            }}
+          >
+            <span className="text-[10px] tracking-[0.25em] text-ink-muted uppercase">
+              TODAY'S QUEST · STRESS
+            </span>
+            <h3 className="mt-4 text-2xl font-light text-ink">10-min walk</h3>
+            <div className="mt-6 flex items-center justify-end gap-2 text-sm font-light text-ink-soft">
+              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="#1878E0" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M13 3 5.8 13.6H11l-.8 7.4 8-10.9h-5.4z" />
+              </svg>
+              Stress
+            </div>
+          </motion.div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
-          {QUESTS.map((q, idx) => {
-            const Icon = q.icon;
-            return (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: idx * 0.15 }}
-                className="group relative flex flex-col justify-between p-7 rounded-3xl bg-canvas border border-border/80 hover:border-primary/40 hover:bg-white hover:shadow-card transition-all"
-              >
-                <div>
-                  <div className="flex items-center justify-between mb-6">
-                    <div className={`w-12 h-12 rounded-2xl flex items-center justify-center ${q.color}`}>
-                      <Icon className="w-6 h-6" />
-                    </div>
-                    <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-white border border-border text-[11px] font-semibold text-primary shadow-xs">
-                      <Sparkles className="w-3 h-3" />
-                      <span>{q.metric}</span>
-                    </span>
-                  </div>
-
-                  <span className="text-[11px] font-semibold uppercase tracking-wider text-ink-muted">
-                    {q.tag}
-                  </span>
-                  <h3 className="text-lg font-semibold text-ink mt-1 mb-2.5">
-                    {q.title}
-                  </h3>
-                  <p className="text-sm font-light text-ink-soft leading-relaxed">
-                    {q.desc}
-                  </p>
-                </div>
-
-                <div className="mt-6 pt-4 border-t border-border/60 flex items-center justify-between text-xs font-semibold text-primary group-hover:translate-x-1 transition-transform">
-                  <span>View Quest in aiOn App</span>
-                  <ArrowUpRight className="w-4 h-4" />
-                </div>
-              </motion.div>
-            );
-          })}
-        </div>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, delay: 0.4 }}
+          className="mt-9 text-center"
+        >
+          <p className="text-base md:text-lg text-ink-soft font-light">
+            Complete it. Earn XP. Build your streak.
+          </p>
+        </motion.div>
       </div>
     </section>
   );
 }
-
