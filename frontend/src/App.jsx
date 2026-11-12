@@ -10,30 +10,30 @@ import CartDrawer from './components/common/CartDrawer.jsx';
 import CookieBanner from './components/common/CookieBanner.jsx';
 
 // Pages
-import HomePage from './pages/HomePage.jsx';
-import ShopPage from './pages/ShopPage.jsx';
-import RingPage from './pages/RingPage.jsx';
-import SizeChartPage from './pages/SizeChartPage.jsx';
-import FAQPage from './pages/FAQPage.jsx';
-import PreorderPage from './pages/PreorderPage.jsx';
-import PartnersPage from './pages/PartnersPage.jsx';
-import SupportPage from './pages/SupportPage.jsx';
-import ContactPage from './pages/ContactPage.jsx';
-import SmartRingGuidePage from './pages/SmartRingGuidePage.jsx';
-import SleepGuidePage from './pages/SleepGuidePage.jsx';
-import RecoveryGuidePage from './pages/RecoveryGuidePage.jsx';
-import StressGuidePage from './pages/StressGuidePage.jsx';
-import AppPage from './pages/AppPage.jsx';
-import SocialEmbedsPage from './pages/SocialEmbedsPage.jsx';
-import CheckoutPage from './pages/CheckoutPage.jsx';
-import PrivacyPolicyPage from './pages/PrivacyPolicyPage.jsx';
-import CookiePolicyPage from './pages/CookiePolicyPage.jsx';
-import CISPolicyPage from './pages/CISPolicyPage.jsx';
-import TermsPage from './pages/TermsPage.jsx';
-import AccessibilityPage from './pages/AccessibilityPage.jsx';
-import TrademarksPage from './pages/TrademarksPage.jsx';
-import DeleteAccountPage from './pages/DeleteAccountPage.jsx';
-import NotFoundPage from './pages/NotFoundPage.jsx';
+const HomePage = lazy(() => import('./pages/HomePage.jsx'));
+const ShopPage = lazy(() => import('./pages/ShopPage.jsx'));
+const RingPage = lazy(() => import('./pages/RingPage.jsx'));
+const SizeChartPage = lazy(() => import('./pages/SizeChartPage.jsx'));
+const FAQPage = lazy(() => import('./pages/FAQPage.jsx'));
+const PreorderPage = lazy(() => import('./pages/PreorderPage.jsx'));
+const PartnersPage = lazy(() => import('./pages/PartnersPage.jsx'));
+const SupportPage = lazy(() => import('./pages/SupportPage.jsx'));
+const ContactPage = lazy(() => import('./pages/ContactPage.jsx'));
+const SmartRingGuidePage = lazy(() => import('./pages/SmartRingGuidePage.jsx'));
+const SleepGuidePage = lazy(() => import('./pages/SleepGuidePage.jsx'));
+const RecoveryGuidePage = lazy(() => import('./pages/RecoveryGuidePage.jsx'));
+const StressGuidePage = lazy(() => import('./pages/StressGuidePage.jsx'));
+const AppPage = lazy(() => import('./pages/AppPage.jsx'));
+const SocialEmbedsPage = lazy(() => import('./pages/SocialEmbedsPage.jsx'));
+const CheckoutPage = lazy(() => import('./pages/CheckoutPage.jsx'));
+const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicyPage.jsx'));
+const CookiePolicyPage = lazy(() => import('./pages/CookiePolicyPage.jsx'));
+const CISPolicyPage = lazy(() => import('./pages/CISPolicyPage.jsx'));
+const TermsPage = lazy(() => import('./pages/TermsPage.jsx'));
+const AccessibilityPage = lazy(() => import('./pages/AccessibilityPage.jsx'));
+const TrademarksPage = lazy(() => import('./pages/TrademarksPage.jsx'));
+const DeleteAccountPage = lazy(() => import('./pages/DeleteAccountPage.jsx'));
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage.jsx'));
 
 // ScrollToTop on Route Change
 function ScrollToTop() {

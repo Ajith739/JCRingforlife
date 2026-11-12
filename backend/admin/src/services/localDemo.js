@@ -579,5 +579,6 @@ export async function localRequest(path, options = {}) {
     throw new Error("This demo action is unavailable.");
 }
 export function isLocalDemo() {
-    return import.meta.env.DEV && import.meta.env.VITE_ADMIN_DATA_MODE !== "api";
+    return import.meta.env.VITE_ADMIN_DATA_MODE === "preview" ||
+      (import.meta.env.DEV && import.meta.env.VITE_ADMIN_DATA_MODE !== "api");
 }
