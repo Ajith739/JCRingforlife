@@ -1,0 +1,54 @@
+{
+  "buttons": [
+    {
+      "tag": "BUTTON",
+      "text": "Collapsed View",
+      "title": "",
+      "aria": null,
+      "class": "navbar-vertical-toggle border-0 fw-semibold w-100 white-space-nowrap d-flex align-items-center btn"
+    },
+    {
+      "tag": "A",
+      "text": "phoenix",
+      "title": "",
+      "aria": null,
+      "class": "navbar-brand"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "title": "",
+      "aria": null,
+      "class": "px-2 border-0 p-0 btn"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "title": "",
+      "aria": null,
+      "class": "nav-link"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "title": "",
+      "aria": null,
+      "class": "dropdown-caret-none nav-link h-100 dropdown-toggle"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "title": "",
+      "aria": null,
+      "class": "dropdown-caret-none nav-link h-100 dropdown-toggle"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "title": "",
+      "aria": null,
+      "class": "dropdown-caret-none nav-link pe-0 py-0 lh-1 h-100 d-flex align-items-center dropdown-toggle"
+    }
+  ],
+  "theme": "light"
+}

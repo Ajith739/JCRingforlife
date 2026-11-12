@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+const targets = await (await fetch('http://127.0.0.1:9222/json')).json();
+const target = targets.find(t=>t.url.startsWith('https://phoenix-react-alt.prium.me'));
+const ws = new WebSocket(target.webSocketDebuggerUrl);
+await new Promise(r=>ws.addEventListener('open',r,{once:true}));
+let id=0; const pending=new Map();
+ws.addEventListener('message',e=>{const m=JSON.parse(e.data); if(m.id){const p=pending.get(m.id);pending.delete(m.id);m.error?p.reject(m.error):p.resolve(m.result)}});
+const send=(method,params={})=>new Promise((resolve,reject)=>{pending.set(++id,{resolve,reject});ws.send(JSON.stringify({id,method,params}))});
+const evaluate=async expression=>(await send('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true})).result.value;
+console.log(JSON.stringify(await evaluate(`({links:[...document.querySelectorAll('a[href]')].map(a=>({text:a.textContent.trim(),href:a.getAttribute('href')})),styles:[...document.querySelectorAll('nav,h2,h3,body,input')].slice(0,12).map(e=>{let s=getComputedStyle(e),b=e.getBoundingClientRect();return {tag:e.tagName,class:e.className,width:b.width,height:b.height,font:s.fontFamily,fontSize:s.fontSize,color:s.color,background:s.backgroundColor}})})`),null,2));
+ws.close();

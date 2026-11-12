@@ -1,0 +1,233 @@
+{
+  "url": "https://phoenix-react-alt.prium.me/pages/coming-soon",
+  "text": "Home\n\nAPPS\n\nE commerce\nCRM\nProject management\nTravel agency\nStock\nChat\nEmail\nEvents\nKanban\nGantt chart\nSocial\nGalleryNEW\nFile manager\nCalendar\n\nPAGES\n\nStarter\nFaq\nLanding\nPricing\nNotifications\nMembers\nTimeline\nComing soon\nErrors\nAuthentication\nLayouts\n\nMODULES\n\nForms\nIcons\nTables\nCharts\nComponents\nUtilities\nWidgets\nMulti level\n\nDOCUMENTATION\n\nGetting started\nCustomization\nDesign file\nChangelog\nMigrations\nShowcase\nCollapsed View\n\nphoenix\n\nGet notified when we launch\n\nSomething in the way! Subscribe to our newsletter to be the first to know about upcoming features and discounts.\n\nSubscribe\n\nThank you for creating with Phoenix React|2026 © Themewagon\n\nv2.2.0\n\nDemo widget\nEric\n\nAsk us anything – we’ll get back to you here or by email within 24 hours.\n\nI need help with something\n\nI can’t reorder a product I previously ordered\n\nHow do I place an order?\n\nMy payment method not working\n\nChat demo\nCUSTOMIZE",
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Collapsed View"
+    },
+    {
+      "tag": "INPUT",
+      "type": "search",
+      "text": "",
+      "placeholder": "Search..."
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Subscribe"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "I need help with something"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "I can’t reorder a product I previously ordered"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "How do I place an order?"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "My payment method not working"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": "Write message"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "text": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Chat demo"
+    }
+  ],
+  "styles": [
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "600",
+      "color": "rgb(82, 91, 117)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "10px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "0px 8px"
+    },
+    {
+      "tag": "H2",
+      "font": "25px",
+      "weight": "800",
+      "color": "rgb(62, 70, 91)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(56, 116, 255)",
+      "radius": "6px",
+      "padding": "10px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "8px 16px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "12.8px",
+      "weight": "500",
+      "color": "rgb(138, 148, 173)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "12.8px",
+      "weight": "500",
+      "color": "rgb(138, 148, 173)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(56, 116, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "50%",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "800px",
+      "padding": "0px"
+    }
+  ]
+}

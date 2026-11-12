@@ -1,0 +1,16 @@
+{
+  "url": "https://phoenix-react-alt.prium.me/pages/errors/404",
+  "text": "Page Missing!\n\nBut no worries! Our ostrich is looking everywhere\nwhile you wait safely.\n\nGo Home\nCUSTOMIZE",
+  "controls": [],
+  "styles": [
+    {
+      "tag": "H2",
+      "font": "31.25px",
+      "weight": "800",
+      "color": "rgb(62, 70, 91)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    }
+  ]
+}

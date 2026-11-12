@@ -1,0 +1,2550 @@
+{
+  "evidence_id": "ev_a4bcf58fb2ae7cb4fff8414b12a7ddabbd11c6cf687897c00cd91b004944bb97",
+  "subject": null,
+  "provider": {
+    "id": "rea-cdp-browser",
+    "name": "REA Chrome DevTools Protocol observation provider",
+    "version": "2"
+  },
+  "predicate_type": "rea.web-page-inspection",
+  "operation": "inspect_web_page",
+  "parameters": {
+    "cdp_endpoint": "http://127.0.0.1:9222",
+    "allowed_origins": [
+      "https://phoenix-react-alt.prium.me"
+    ],
+    "target_id": "70DB70336A203952FEA8C6E1CDC26883",
+    "observation_ms": 500,
+    "include_accessibility_text": true,
+    "include_console_text": false,
+    "include_json_body_shapes": false,
+    "include_websocket_shapes": false,
+    "include_storage_keys": false,
+    "include_storage_fingerprints": false,
+    "include_script_sources": false
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "browser": {
+      "product": "Chrome/157.0.8103.78",
+      "protocol_version": "1.3",
+      "revision": "537.36 (@4b3d0dabb8250b6f152d2d85d79e7706e309d087)",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "js_version": "15.7.112.43"
+    },
+    "target": {
+      "target_id": "70DB70336A203952FEA8C6E1CDC26883",
+      "type": "page",
+      "title": "Phoenix React | ReactJS Dashboard &amp; WebApp Template",
+      "url": "https://phoenix-react-alt.prium.me/pages/authentication/split/sign-in",
+      "origin": "https://phoenix-react-alt.prium.me",
+      "attached": false
+    },
+    "capture_window": {
+      "started_at": "2026-11-12T09:19:31.024Z",
+      "ended_at": "2026-11-12T09:19:31.885Z",
+      "observation_ms": 500
+    },
+    "completeness": {
+      "status": "policy_filtered",
+      "conditions": [
+        "attach_limited",
+        "policy_filtered"
+      ],
+      "policy_filtered_sections": [
+        "console_text",
+        "json_body_shapes",
+        "metadata",
+        "resources",
+        "script_sources",
+        "scripts",
+        "storage_keys",
+        "websocket_shapes"
+      ],
+      "attach_limited_sections": [
+        "console_events",
+        "metadata",
+        "network_requests",
+        "websocket_connections",
+        "websocket_frames"
+      ],
+      "truncated_sections": [],
+      "unavailable_sections": [],
+      "excluded": [
+        {
+          "section": "console_text",
+          "reason": "not_approved",
+          "count": null
+        },
+        {
+          "section": "json_body_shapes",
+          "reason": "not_approved",
+          "count": null
+        },
+        {
+          "section": "metadata",
+          "reason": "disallowed_origin",
+          "count": 5
+        },
+        {
+          "section": "metadata",
+          "reason": "unsupported_url",
+          "count": 1
+        },
+        {
+          "section": "resources",
+          "reason": "disallowed_origin",
+          "count": 4
+        },
+        {
+          "section": "resources",
+          "reason": "unsupported_url",
+          "count": 2
+        },
+        {
+          "section": "script_sources",
+          "reason": "not_approved",
+          "count": 1
+        },
+        {
+          "section": "scripts",
+          "reason": "disallowed_origin",
+          "count": 1
+        },
+        {
+          "section": "scripts",
+          "reason": "unattributed_origin",
+          "count": 3
+        },
+        {
+          "section": "storage_keys",
+          "reason": "not_approved",
+          "count": null
+        },
+        {
+          "section": "websocket_shapes",
+          "reason": "not_approved",
+          "count": null
+        }
+      ],
+      "dropped_events": {
+        "scripts": 0,
+        "network_requests": 0,
+        "console_events": 0,
+        "websocket_connections": 0,
+        "websocket_frames": 0,
+        "webmcp_tools": 0,
+        "timeline_events": 0,
+        "total": 0
+      }
+    },
+    "frames": [
+      {
+        "frame_id": "70DB70336A203952FEA8C6E1CDC26883",
+        "parent_frame_id": null,
+        "url": "https://phoenix-react-alt.prium.me/pages/authentication/split/sign-in",
+        "origin": "https://phoenix-react-alt.prium.me"
+      }
+    ],
+    "dom": {
+      "total_nodes": 130,
+      "nodes": [
+        {
+          "index": 0,
+          "parent_index": -1,
+          "node_type": 9,
+          "node_name": "#document",
+          "node_value_length": 0,
+          "attribute_names": []
+        },
+        {
+          "index": 1,
+          "parent_index": 0,
+          "node_type": 10,
+          "node_name": "html",
+          "node_value_length": 0,
+          "attribute_names": []
+        },
+        {
+          "index": 2,
+          "parent_index": 0,
+          "node_type": 1,
+          "node_name": "HTML",
+          "node_value_length": 0,
+          "attribute_names": [
+            "lang",
+            "data-bs-theme",
+            "class",
+            "dir",
+            "data-navigation-type"
+          ]
+        },
+        {
+          "index": 3,
+          "parent_index": 2,
+          "node_type": 1,
+          "node_name": "HEAD",
+          "node_value_length": 0,
+          "attribute_names": []
+        },
+        {
+          "index": 4,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 5,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "META",
+          "node_value_length": 0,
+          "attribute_names": [
+            "charset"
+          ]
+        },
+        {
+          "index": 6,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 7,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "STYLE",
+          "node_value_length": 0,
+          "attribute_names": [
+            "type"
+          ]
+        },
+        {
+          "index": 8,
+          "parent_index": 7,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 12332,
+          "attribute_names": []
+        },
+        {
+          "index": 9,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "LINK",
+          "node_value_length": 0,
+          "attribute_names": [
+            "rel",
+            "href"
+          ]
+        },
+        {
+          "index": 10,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 11,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "META",
+          "node_value_length": 0,
+          "attribute_names": [
+            "name",
+            "content"
+          ]
+        },
+        {
+          "index": 12,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 13,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "META",
+          "node_value_length": 0,
+          "attribute_names": [
+            "name",
+            "content"
+          ]
+        },
+        {
+          "index": 14,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 15,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "META",
+          "node_value_length": 0,
+          "attribute_names": [
+            "name",
+            "content"
+          ]
+        },
+        {
+          "index": 16,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 17,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "LINK",
+          "node_value_length": 0,
+          "attribute_names": [
+            "rel",
+            "href"
+          ]
+        },
+        {
+          "index": 18,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 19,
+          "parent_index": 3,
+          "node_type": 8,
+          "node_name": "#comment",
+          "node_value_length": 192,
+          "attribute_names": []
+        },
+        {
+          "index": 20,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 21,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "LINK",
+          "node_value_length": 0,
+          "attribute_names": [
+            "rel",
+            "href"
+          ]
+        },
+        {
+          "index": 22,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 23,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "LINK",
+          "node_value_length": 0,
+          "attribute_names": [
+            "rel",
+            "href"
+          ]
+        },
+        {
+          "index": 24,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 25,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "LINK",
+          "node_value_length": 0,
+          "attribute_names": [
+            "rel",
+            "href",
+            "crossorigin"
+          ]
+        },
+        {
+          "index": 26,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 27,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "LINK",
+          "node_value_length": 0,
+          "attribute_names": [
+            "href",
+            "rel"
+          ]
+        },
+        {
+          "index": 28,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 29,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "LINK",
+          "node_value_length": 0,
+          "attribute_names": [
+            "rel",
+            "href"
+          ]
+        },
+        {
+          "index": 30,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 31,
+          "parent_index": 3,
+          "node_type": 8,
+          "node_name": "#comment",
+          "node_value_length": 430,
+          "attribute_names": []
+        },
+        {
+          "index": 32,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 33,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "TITLE",
+          "node_value_length": 0,
+          "attribute_names": []
+        },
+        {
+          "index": 34,
+          "parent_index": 33,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 51,
+          "attribute_names": []
+        },
+        {
+          "index": 35,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 36,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "SCRIPT",
+          "node_value_length": 0,
+          "attribute_names": [
+            "type",
+            "crossorigin",
+            "src"
+          ]
+        },
+        {
+          "index": 37,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 38,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "LINK",
+          "node_value_length": 0,
+          "attribute_names": [
+            "rel",
+            "crossorigin",
+            "href"
+          ]
+        },
+        {
+          "index": 39,
+          "parent_index": 3,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 3,
+          "attribute_names": []
+        },
+        {
+          "index": 40,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "STYLE",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 41,
+          "parent_index": 40,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 4720,
+          "attribute_names": []
+        },
+        {
+          "index": 42,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "STYLE",
+          "node_value_length": 0,
+          "attribute_names": [
+            "type"
+          ]
+        },
+        {
+          "index": 43,
+          "parent_index": 42,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 595,
+          "attribute_names": []
+        },
+        {
+          "index": 44,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "LINK",
+          "node_value_length": 0,
+          "attribute_names": [
+            "rel",
+            "href",
+            "class"
+          ]
+        },
+        {
+          "index": 45,
+          "parent_index": 3,
+          "node_type": 1,
+          "node_name": "LINK",
+          "node_value_length": 0,
+          "attribute_names": [
+            "rel",
+            "href",
+            "class"
+          ]
+        },
+        {
+          "index": 46,
+          "parent_index": 2,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 4,
+          "attribute_names": []
+        },
+        {
+          "index": 47,
+          "parent_index": 2,
+          "node_type": 1,
+          "node_name": "BODY",
+          "node_value_length": 0,
+          "attribute_names": []
+        },
+        {
+          "index": 48,
+          "parent_index": 47,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 49,
+          "parent_index": 47,
+          "node_type": 1,
+          "node_name": "NOSCRIPT",
+          "node_value_length": 0,
+          "attribute_names": []
+        },
+        {
+          "index": 50,
+          "parent_index": 49,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 46,
+          "attribute_names": []
+        },
+        {
+          "index": 51,
+          "parent_index": 47,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 52,
+          "parent_index": 47,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "id"
+          ]
+        },
+        {
+          "index": 53,
+          "parent_index": 52,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 54,
+          "parent_index": 53,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 55,
+          "parent_index": 54,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class",
+            "style"
+          ]
+        },
+        {
+          "index": 56,
+          "parent_index": 53,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 57,
+          "parent_index": 56,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 58,
+          "parent_index": 57,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 59,
+          "parent_index": 58,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 60,
+          "parent_index": 59,
+          "node_type": 1,
+          "node_name": "A",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class",
+            "href",
+            "data-discover"
+          ]
+        },
+        {
+          "index": 61,
+          "parent_index": 60,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 62,
+          "parent_index": 61,
+          "node_type": 1,
+          "node_name": "IMG",
+          "node_value_length": 0,
+          "attribute_names": [
+            "alt",
+            "width",
+            "src"
+          ]
+        },
+        {
+          "index": 63,
+          "parent_index": 58,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 64,
+          "parent_index": 63,
+          "node_type": 1,
+          "node_name": "H3",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 65,
+          "parent_index": 64,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 7,
+          "attribute_names": []
+        },
+        {
+          "index": 66,
+          "parent_index": 63,
+          "node_type": 1,
+          "node_name": "P",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 67,
+          "parent_index": 66,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 26,
+          "attribute_names": []
+        },
+        {
+          "index": 68,
+          "parent_index": 58,
+          "node_type": 1,
+          "node_name": "BUTTON",
+          "node_value_length": 0,
+          "attribute_names": [
+            "type",
+            "class"
+          ]
+        },
+        {
+          "index": 69,
+          "parent_index": 68,
+          "node_type": 1,
+          "node_name": "svg",
+          "node_value_length": 0,
+          "attribute_names": [
+            "aria-hidden",
+            "focusable",
+            "data-prefix",
+            "data-icon",
+            "class",
+            "role",
+            "xmlns",
+            "viewBox"
+          ]
+        },
+        {
+          "index": 70,
+          "parent_index": 69,
+          "node_type": 1,
+          "node_name": "::before",
+          "node_value_length": 0,
+          "attribute_names": []
+        },
+        {
+          "index": 71,
+          "parent_index": 69,
+          "node_type": 1,
+          "node_name": "path",
+          "node_value_length": 0,
+          "attribute_names": [
+            "fill",
+            "d"
+          ]
+        },
+        {
+          "index": 72,
+          "parent_index": 68,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 7,
+          "attribute_names": []
+        },
+        {
+          "index": 73,
+          "parent_index": 68,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 12,
+          "attribute_names": []
+        },
+        {
+          "index": 74,
+          "parent_index": 58,
+          "node_type": 1,
+          "node_name": "BUTTON",
+          "node_value_length": 0,
+          "attribute_names": [
+            "type",
+            "class"
+          ]
+        },
+        {
+          "index": 75,
+          "parent_index": 74,
+          "node_type": 1,
+          "node_name": "svg",
+          "node_value_length": 0,
+          "attribute_names": [
+            "aria-hidden",
+            "focusable",
+            "data-prefix",
+            "data-icon",
+            "class",
+            "role",
+            "xmlns",
+            "viewBox"
+          ]
+        },
+        {
+          "index": 76,
+          "parent_index": 75,
+          "node_type": 1,
+          "node_name": "::before",
+          "node_value_length": 0,
+          "attribute_names": []
+        },
+        {
+          "index": 77,
+          "parent_index": 75,
+          "node_type": 1,
+          "node_name": "path",
+          "node_value_length": 0,
+          "attribute_names": [
+            "fill",
+            "d"
+          ]
+        },
+        {
+          "index": 78,
+          "parent_index": 74,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 7,
+          "attribute_names": []
+        },
+        {
+          "index": 79,
+          "parent_index": 74,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 14,
+          "attribute_names": []
+        },
+        {
+          "index": 80,
+          "parent_index": 58,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 81,
+          "parent_index": 80,
+          "node_type": 1,
+          "node_name": "HR",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 82,
+          "parent_index": 80,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 83,
+          "parent_index": 82,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 12,
+          "attribute_names": []
+        },
+        {
+          "index": 84,
+          "parent_index": 58,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 85,
+          "parent_index": 84,
+          "node_type": 1,
+          "node_name": "LABEL",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class",
+            "for"
+          ]
+        },
+        {
+          "index": 86,
+          "parent_index": 85,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 13,
+          "attribute_names": []
+        },
+        {
+          "index": 87,
+          "parent_index": 84,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 88,
+          "parent_index": 87,
+          "node_type": 1,
+          "node_name": "INPUT",
+          "node_value_length": 0,
+          "attribute_names": [
+            "placeholder",
+            "id",
+            "class",
+            "type"
+          ]
+        },
+        {
+          "index": 89,
+          "parent_index": 87,
+          "node_type": 1,
+          "node_name": "svg",
+          "node_value_length": 0,
+          "attribute_names": [
+            "aria-hidden",
+            "focusable",
+            "data-prefix",
+            "data-icon",
+            "class",
+            "role",
+            "xmlns",
+            "viewBox"
+          ]
+        },
+        {
+          "index": 90,
+          "parent_index": 89,
+          "node_type": 1,
+          "node_name": "::before",
+          "node_value_length": 0,
+          "attribute_names": []
+        },
+        {
+          "index": 91,
+          "parent_index": 89,
+          "node_type": 1,
+          "node_name": "path",
+          "node_value_length": 0,
+          "attribute_names": [
+            "fill",
+            "d"
+          ]
+        },
+        {
+          "index": 92,
+          "parent_index": 58,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 93,
+          "parent_index": 92,
+          "node_type": 1,
+          "node_name": "LABEL",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class",
+            "for"
+          ]
+        },
+        {
+          "index": 94,
+          "parent_index": 93,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 8,
+          "attribute_names": []
+        },
+        {
+          "index": 95,
+          "parent_index": 92,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 96,
+          "parent_index": 95,
+          "node_type": 1,
+          "node_name": "INPUT",
+          "node_value_length": 0,
+          "attribute_names": [
+            "placeholder",
+            "id",
+            "class",
+            "type"
+          ]
+        },
+        {
+          "index": 97,
+          "parent_index": 95,
+          "node_type": 1,
+          "node_name": "svg",
+          "node_value_length": 0,
+          "attribute_names": [
+            "aria-hidden",
+            "focusable",
+            "data-prefix",
+            "data-icon",
+            "class",
+            "role",
+            "xmlns",
+            "viewBox"
+          ]
+        },
+        {
+          "index": 98,
+          "parent_index": 97,
+          "node_type": 1,
+          "node_name": "::before",
+          "node_value_length": 0,
+          "attribute_names": []
+        },
+        {
+          "index": 99,
+          "parent_index": 97,
+          "node_type": 1,
+          "node_name": "path",
+          "node_value_length": 0,
+          "attribute_names": [
+            "fill",
+            "d"
+          ]
+        },
+        {
+          "index": 100,
+          "parent_index": 58,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 101,
+          "parent_index": 100,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 102,
+          "parent_index": 101,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 103,
+          "parent_index": 102,
+          "node_type": 1,
+          "node_name": "INPUT",
+          "node_value_length": 0,
+          "attribute_names": [
+            "id",
+            "class",
+            "type",
+            "checked",
+            "name"
+          ]
+        },
+        {
+          "index": 104,
+          "parent_index": 102,
+          "node_type": 1,
+          "node_name": "LABEL",
+          "node_value_length": 0,
+          "attribute_names": [
+            "for",
+            "class"
+          ]
+        },
+        {
+          "index": 105,
+          "parent_index": 104,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 11,
+          "attribute_names": []
+        },
+        {
+          "index": 106,
+          "parent_index": 100,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 107,
+          "parent_index": 106,
+          "node_type": 1,
+          "node_name": "A",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class",
+            "href",
+            "data-discover"
+          ]
+        },
+        {
+          "index": 108,
+          "parent_index": 107,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 16,
+          "attribute_names": []
+        },
+        {
+          "index": 109,
+          "parent_index": 58,
+          "node_type": 1,
+          "node_name": "BUTTON",
+          "node_value_length": 0,
+          "attribute_names": [
+            "type",
+            "class"
+          ]
+        },
+        {
+          "index": 110,
+          "parent_index": 109,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 7,
+          "attribute_names": []
+        },
+        {
+          "index": 111,
+          "parent_index": 58,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 112,
+          "parent_index": 111,
+          "node_type": 1,
+          "node_name": "A",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class",
+            "href",
+            "data-discover"
+          ]
+        },
+        {
+          "index": 113,
+          "parent_index": 112,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 17,
+          "attribute_names": []
+        },
+        {
+          "index": 114,
+          "parent_index": 52,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 115,
+          "parent_index": 114,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 116,
+          "parent_index": 115,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class",
+            "style"
+          ]
+        },
+        {
+          "index": 117,
+          "parent_index": 116,
+          "node_type": 1,
+          "node_name": "DIV",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 118,
+          "parent_index": 117,
+          "node_type": 1,
+          "node_name": "SPAN",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 119,
+          "parent_index": 118,
+          "node_type": 1,
+          "node_name": "SPAN",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 120,
+          "parent_index": 119,
+          "node_type": 1,
+          "node_name": "SPAN",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 121,
+          "parent_index": 120,
+          "node_type": 1,
+          "node_name": "svg",
+          "node_value_length": 0,
+          "attribute_names": [
+            "width",
+            "height",
+            "viewBox",
+            "fill",
+            "xmlns"
+          ]
+        },
+        {
+          "index": 122,
+          "parent_index": 121,
+          "node_type": 1,
+          "node_name": "path",
+          "node_value_length": 0,
+          "attribute_names": [
+            "d",
+            "fill"
+          ]
+        },
+        {
+          "index": 123,
+          "parent_index": 115,
+          "node_type": 1,
+          "node_name": "SMALL",
+          "node_value_length": 0,
+          "attribute_names": [
+            "class"
+          ]
+        },
+        {
+          "index": 124,
+          "parent_index": 123,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 9,
+          "attribute_names": []
+        },
+        {
+          "index": 125,
+          "parent_index": 47,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 5,
+          "attribute_names": []
+        },
+        {
+          "index": 126,
+          "parent_index": 47,
+          "node_type": 8,
+          "node_name": "#comment",
+          "node_value_length": 395,
+          "attribute_names": []
+        },
+        {
+          "index": 127,
+          "parent_index": 47,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 3,
+          "attribute_names": []
+        },
+        {
+          "index": 128,
+          "parent_index": 47,
+          "node_type": 1,
+          "node_name": "SCRIPT",
+          "node_value_length": 0,
+          "attribute_names": [
+            "type",
+            "src",
+            "integrity",
+            "data-cf-beacon",
+            "crossorigin"
+          ]
+        },
+        {
+          "index": 129,
+          "parent_index": 47,
+          "node_type": 3,
+          "node_name": "#text",
+          "node_value_length": 3,
+          "attribute_names": []
+        }
+      ]
+    },
+    "accessibility": {
+      "total_nodes": 84,
+      "text_capture": {
+        "status": "included",
+        "retained_bytes": 516,
+        "excluded_fields": 0
+      },
+      "nodes": [
+        {
+          "node_id": "29165",
+          "parent_id": null,
+          "role": "RootWebArea",
+          "name": "Phoenix React | ReactJS Dashboard & WebApp Template",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "focusable",
+              "value": true
+            }
+          ]
+        },
+        {
+          "node_id": "29205",
+          "parent_id": "29165",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29250",
+          "parent_id": "29205",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29255",
+          "parent_id": "29250",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29256",
+          "parent_id": "29255",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29257",
+          "parent_id": "29256",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29259",
+          "parent_id": "29256",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29203",
+          "parent_id": "29259",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29260",
+          "parent_id": "29203",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29261",
+          "parent_id": "29260",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29263",
+          "parent_id": "29260",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29169",
+          "parent_id": "29263",
+          "role": "heading",
+          "name": "Sign In",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "level",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "node_id": "29171",
+          "parent_id": "29263",
+          "role": "paragraph",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29173",
+          "parent_id": "29260",
+          "role": "button",
+          "name": "Sign in with google",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "focusable",
+              "value": true
+            },
+            {
+              "name": "invalid",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "node_id": "29177",
+          "parent_id": "29260",
+          "role": "button",
+          "name": "Sign in with facebook",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "focusable",
+              "value": true
+            },
+            {
+              "name": "invalid",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "node_id": "29268",
+          "parent_id": "29260",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29271",
+          "parent_id": "29260",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29272",
+          "parent_id": "29271",
+          "role": "LabelText",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29273",
+          "parent_id": "29271",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29276",
+          "parent_id": "29260",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29277",
+          "parent_id": "29276",
+          "role": "LabelText",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29278",
+          "parent_id": "29276",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29281",
+          "parent_id": "29260",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29282",
+          "parent_id": "29281",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29283",
+          "parent_id": "29282",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29285",
+          "parent_id": "29281",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29196",
+          "parent_id": "29260",
+          "role": "button",
+          "name": "Sign In",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "focusable",
+              "value": true
+            },
+            {
+              "name": "invalid",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "node_id": "29286",
+          "parent_id": "29260",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29200",
+          "parent_id": "29255",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29258",
+          "parent_id": "29257",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29167",
+          "parent_id": "29261",
+          "role": "link",
+          "name": "phoenix",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "focusable",
+              "value": true
+            }
+          ]
+        },
+        {
+          "node_id": "29170",
+          "parent_id": "29169",
+          "role": "StaticText",
+          "name": "Sign In",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29172",
+          "parent_id": "29171",
+          "role": "StaticText",
+          "name": "Get access to your account",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29174",
+          "parent_id": "29173",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29175",
+          "parent_id": "29173",
+          "role": "StaticText",
+          "name": "Sign in",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29176",
+          "parent_id": "29173",
+          "role": "StaticText",
+          "name": " with google",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29178",
+          "parent_id": "29177",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29179",
+          "parent_id": "29177",
+          "role": "StaticText",
+          "name": "Sign in",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29180",
+          "parent_id": "29177",
+          "role": "StaticText",
+          "name": " with facebook",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29269",
+          "parent_id": "29268",
+          "role": "separator",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "orientation",
+              "value": "horizontal"
+            }
+          ]
+        },
+        {
+          "node_id": "29270",
+          "parent_id": "29268",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29182",
+          "parent_id": "29272",
+          "role": "StaticText",
+          "name": "EMAIL ADDRESS",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29183",
+          "parent_id": "29273",
+          "role": "textbox",
+          "name": "EMAIL ADDRESS",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "editable",
+              "value": "plaintext"
+            },
+            {
+              "name": "focusable",
+              "value": true
+            },
+            {
+              "name": "invalid",
+              "value": "false"
+            },
+            {
+              "name": "multiline",
+              "value": false
+            },
+            {
+              "name": "readonly",
+              "value": false
+            },
+            {
+              "name": "required",
+              "value": false
+            }
+          ]
+        },
+        {
+          "node_id": "29186",
+          "parent_id": "29273",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29187",
+          "parent_id": "29277",
+          "role": "StaticText",
+          "name": "PASSWORD",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29188",
+          "parent_id": "29278",
+          "role": "textbox",
+          "name": "PASSWORD",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "editable",
+              "value": "plaintext"
+            },
+            {
+              "name": "focusable",
+              "value": true
+            },
+            {
+              "name": "invalid",
+              "value": "false"
+            },
+            {
+              "name": "multiline",
+              "value": false
+            },
+            {
+              "name": "readonly",
+              "value": false
+            },
+            {
+              "name": "required",
+              "value": false
+            }
+          ]
+        },
+        {
+          "node_id": "29191",
+          "parent_id": "29278",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29192",
+          "parent_id": "29283",
+          "role": "checkbox",
+          "name": "Remember me",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "checked",
+              "value": "true"
+            },
+            {
+              "name": "focusable",
+              "value": true
+            },
+            {
+              "name": "invalid",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "node_id": "29284",
+          "parent_id": "29283",
+          "role": "LabelText",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29194",
+          "parent_id": "29285",
+          "role": "link",
+          "name": "Forgot Password?",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "focusable",
+              "value": true
+            }
+          ]
+        },
+        {
+          "node_id": "29197",
+          "parent_id": "29196",
+          "role": "StaticText",
+          "name": "Sign In",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29198",
+          "parent_id": "29286",
+          "role": "link",
+          "name": "Create an account",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "focusable",
+              "value": true
+            }
+          ]
+        },
+        {
+          "node_id": "29287",
+          "parent_id": "29200",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29288",
+          "parent_id": "29287",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29294",
+          "parent_id": "29287",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29262",
+          "parent_id": "29167",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29168",
+          "parent_id": "29262",
+          "role": "image",
+          "name": "phoenix",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003398",
+          "parent_id": "29170",
+          "role": "InlineTextBox",
+          "name": "Sign In",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003399",
+          "parent_id": "29172",
+          "role": "InlineTextBox",
+          "name": "Get access to your account",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003400",
+          "parent_id": "29175",
+          "role": "InlineTextBox",
+          "name": "Sign in",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003401",
+          "parent_id": "29176",
+          "role": "InlineTextBox",
+          "name": " with google",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003402",
+          "parent_id": "29179",
+          "role": "InlineTextBox",
+          "name": "Sign in",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003403",
+          "parent_id": "29180",
+          "role": "InlineTextBox",
+          "name": " with facebook",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29181",
+          "parent_id": "29270",
+          "role": "StaticText",
+          "name": "or use email",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003405",
+          "parent_id": "29182",
+          "role": "InlineTextBox",
+          "name": "EMAIL ADDRESS",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29300",
+          "parent_id": "29183",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29185",
+          "parent_id": "29183",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "editable",
+              "value": "plaintext"
+            }
+          ]
+        },
+        {
+          "node_id": "-1000003406",
+          "parent_id": "29187",
+          "role": "InlineTextBox",
+          "name": "PASSWORD",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29301",
+          "parent_id": "29188",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29190",
+          "parent_id": "29188",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": [
+            {
+              "name": "editable",
+              "value": "plaintext"
+            }
+          ]
+        },
+        {
+          "node_id": "29193",
+          "parent_id": "29284",
+          "role": "StaticText",
+          "name": "Remember me",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29195",
+          "parent_id": "29194",
+          "role": "StaticText",
+          "name": "Forgot Password?",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003409",
+          "parent_id": "29197",
+          "role": "InlineTextBox",
+          "name": "Sign In",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29199",
+          "parent_id": "29198",
+          "role": "StaticText",
+          "name": "Create an account",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29289",
+          "parent_id": "29288",
+          "role": "generic",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29202",
+          "parent_id": "29294",
+          "role": "StaticText",
+          "name": "CUSTOMIZE",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003404",
+          "parent_id": "29181",
+          "role": "InlineTextBox",
+          "name": "or use email",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003407",
+          "parent_id": "29193",
+          "role": "InlineTextBox",
+          "name": "Remember me",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003408",
+          "parent_id": "29195",
+          "role": "InlineTextBox",
+          "name": "Forgot Password?",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003410",
+          "parent_id": "29199",
+          "role": "InlineTextBox",
+          "name": "Create an account",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "29291",
+          "parent_id": "29289",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29292",
+          "parent_id": "29291",
+          "role": "none",
+          "name": null,
+          "description": null,
+          "ignored": true,
+          "states": []
+        },
+        {
+          "node_id": "29201",
+          "parent_id": "29292",
+          "role": "image",
+          "name": "",
+          "description": null,
+          "ignored": false,
+          "states": []
+        },
+        {
+          "node_id": "-1000003411",
+          "parent_id": "29202",
+          "role": "InlineTextBox",
+          "name": "CUSTOMIZE",
+          "description": null,
+          "ignored": false,
+          "states": []
+        }
+      ]
+    },
+    "scripts": {
+      "total": 1,
+      "items": [
+        {
+          "script_key": "scr_4018d703bebca78b2b7f798600e277baef2e99748b750bde087cc943db6b0e4d",
+          "frame_id": "70DB70336A203952FEA8C6E1CDC26883",
+          "url": "https://phoenix-react-alt.prium.me/assets/index-zsfG96QU.js",
+          "origin": "https://phoenix-react-alt.prium.me",
+          "cdp_hash": "cd2e71dae4e84317035877f31753351305e2e836bbcdfa6efbdf8162d01c2ba2",
+          "length": 11817402,
+          "is_module": true,
+          "language": "JavaScript",
+          "source_map_url": null,
+          "resource_reconciliation": {
+            "status": "exact",
+            "resource_key": "res_d3ea618b0ef620a244b3466c59ef591932af444d1a18c9627de942c36498175f"
+          },
+          "source": {
+            "included": false,
+            "reason": "source capture was not selected"
+          }
+        }
+      ]
+    },
+    "resources": [
+      {
+        "resource_key": "res_129bda94c38b9879786b61432da0433f0346ae2ab87d1f3a51f8b86a5862a74f",
+        "url": "https://phoenix-react-alt.prium.me/assets/30-CtcL_zd_.png",
+        "origin": "https://phoenix-react-alt.prium.me",
+        "type": "Image",
+        "mime_type": "image/png",
+        "content_size": 0
+      },
+      {
+        "resource_key": "res_156e9d710f330f6b5b30b5b83932052b08534376c92abeba8048f4b67504f015",
+        "url": "https://phoenix-react-alt.prium.me/assets/index-D2QXv6xN.css",
+        "origin": "https://phoenix-react-alt.prium.me",
+        "type": "Stylesheet",
+        "mime_type": "text/css",
+        "content_size": 182760
+      },
+      {
+        "resource_key": "res_364c884b9f5ecd91e7aa874718ca92942123d57abf37f9c2de939da1f1a97039",
+        "url": "https://phoenix-react-alt.prium.me/css/user.css",
+        "origin": "https://phoenix-react-alt.prium.me",
+        "type": "Stylesheet",
+        "mime_type": "text/css",
+        "content_size": 384
+      },
+      {
+        "resource_key": "res_8b61ab20d126dfeb9abd21fded0242407824f8c28c19a5e7a52b30ebdb18fffd",
+        "url": "https://phoenix-react-alt.prium.me/css/theme.css",
+        "origin": "https://phoenix-react-alt.prium.me",
+        "type": "Stylesheet",
+        "mime_type": "text/css",
+        "content_size": 1019389
+      },
+      {
+        "resource_key": "res_d3ea618b0ef620a244b3466c59ef591932af444d1a18c9627de942c36498175f",
+        "url": "https://phoenix-react-alt.prium.me/assets/index-zsfG96QU.js",
+        "origin": "https://phoenix-react-alt.prium.me",
+        "type": "Script",
+        "mime_type": "application/javascript",
+        "content_size": 11823488
+      }
+    ],
+    "network": {
+      "requests": [],
+      "websocket_events": [],
+      "coverage_started_at": "2026-11-12T09:19:31.024Z",
+      "prior_activity_available": false
+    },
+    "console": {
+      "events": [],
+      "coverage_started_at": "2026-11-12T09:19:31.024Z",
+      "prior_activity_available": false
+    },
+    "workers": [],
+    "metadata": {
+      "responses": [],
+      "dom_urls": [
+        {
+          "node_index": 9,
+          "attribute": "href",
+          "url": "https://phoenix-react-alt.prium.me/assets/favicon-eIaRVD1A.ico",
+          "destination_scope": "approved"
+        },
+        {
+          "node_index": 17,
+          "attribute": "href",
+          "url": "https://phoenix-react-alt.prium.me/logo192.png",
+          "destination_scope": "approved"
+        },
+        {
+          "node_index": 21,
+          "attribute": "href",
+          "url": "https://phoenix-react-alt.prium.me/manifest.json",
+          "destination_scope": "approved"
+        },
+        {
+          "node_index": 23,
+          "attribute": "href",
+          "url": null,
+          "destination_scope": "outside_policy"
+        },
+        {
+          "node_index": 25,
+          "attribute": "href",
+          "url": null,
+          "destination_scope": "outside_policy"
+        },
+        {
+          "node_index": 27,
+          "attribute": "href",
+          "url": null,
+          "destination_scope": "outside_policy"
+        },
+        {
+          "node_index": 29,
+          "attribute": "href",
+          "url": null,
+          "destination_scope": "outside_policy"
+        },
+        {
+          "node_index": 36,
+          "attribute": "src",
+          "url": "https://phoenix-react-alt.prium.me/assets/index-zsfG96QU.js",
+          "destination_scope": "approved"
+        },
+        {
+          "node_index": 38,
+          "attribute": "href",
+          "url": "https://phoenix-react-alt.prium.me/assets/index-D2QXv6xN.css",
+          "destination_scope": "approved"
+        },
+        {
+          "node_index": 44,
+          "attribute": "href",
+          "url": "https://phoenix-react-alt.prium.me/css/theme.css",
+          "destination_scope": "approved"
+        },
+        {
+          "node_index": 45,
+          "attribute": "href",
+          "url": "https://phoenix-react-alt.prium.me/css/user.css",
+          "destination_scope": "approved"
+        },
+        {
+          "node_index": 60,
+          "attribute": "href",
+          "url": "https://phoenix-react-alt.prium.me/",
+          "destination_scope": "approved"
+        },
+        {
+          "node_index": 62,
+          "attribute": "src",
+          "url": null,
+          "destination_scope": "unsupported"
+        },
+        {
+          "node_index": 107,
+          "attribute": "href",
+          "url": "https://phoenix-react-alt.prium.me/pages/authentication/split/forgot-password",
+          "destination_scope": "approved"
+        },
+        {
+          "node_index": 112,
+          "attribute": "href",
+          "url": "https://phoenix-react-alt.prium.me/pages/authentication/split/sign-up",
+          "destination_scope": "approved"
+        },
+        {
+          "node_index": 128,
+          "attribute": "src",
+          "url": null,
+          "destination_scope": "outside_policy"
+        }
+      ],
+      "agent_hints": [],
+      "excluded_dom_urls": 6,
+      "headers_allowlisted": true
+    },
+    "storage": {
+      "origin": "https://phoenix-react-alt.prium.me",
+      "usage_bytes": 0,
+      "quota_bytes": 147064317542,
+      "local_storage_keys": [],
+      "session_storage_keys": [],
+      "indexed_db_names": [],
+      "cache_names": [],
+      "content_fingerprints": [],
+      "fingerprint_algorithm": "sha256",
+      "fingerprints_complete": false,
+      "values_redacted": true
+    },
+    "limitations": [
+      "Observation starts when REA attaches; prior network and console activity is unavailable.",
+      "Raw network headers, bodies, cookies, storage values, console objects, and WebSocket payloads are never retained; explicitly requested primitive console text is retained verbatim, while payload captures retain value-free shapes.",
+      "Source maps are reported only as declarative URLs and are not fetched.",
+      "URL-less scripts and console events without an allowed source URL are excluded because their origin cannot be proven."
+    ]
+  },
+  "confidence": "observed",
+  "authority": "external-service",
+  "environment": {
+    "id": "Chrome/157.0.8103.78@537.36 (@4b3d0dabb8250b6f152d2d85d79e7706e309d087)",
+    "platform": "unknown",
+    "architecture": "unknown",
+    "isolation": "none"
+  },
+  "limitations": [
+    "Artifact identity is unavailable for this observation.",
+    "Observation starts when REA attaches; prior network and console activity is unavailable.",
+    "Raw network headers, bodies, cookies, storage values, console objects, and WebSocket payloads are never retained; explicitly requested primitive console text is retained verbatim, while payload captures retain value-free shapes.",
+    "Source maps are reported only as declarative URLs and are not fetched.",
+    "URL-less scripts and console events without an allowed source URL are excluded because their origin cannot be proven.",
+    "Browser host platform and architecture were not observed."
+  ],
+  "locations": [],
+  "evidence_links": []
+}

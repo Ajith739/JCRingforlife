@@ -1,4 +1,6 @@
-import React, { useLayoutEffect } from 'react';
+import React, { lazy, Suspense, useLayoutEffect } from 'react';
+const AdminApp = lazy(() => import('./admin/AdminApp'));
+
 import { Routes, Route, useLocation } from 'react-router-dom';
 
 // Common Components
@@ -49,6 +51,9 @@ function ScrollToTop() {
 }
 
 export default function App() {
+  const { pathname } = useLocation();
+  const adminRoute = pathname === '/admin' || pathname.startsWith('/admin/') || ['/login', '/forgot-password', '/reset-password', '/verify-email', '/lock-screen', '/logout', '/coming-soon', '/maintenance', '/403', '/404', '/500'].includes(pathname);
+  if (adminRoute) return <Suspense fallback={<div role="status" style={{padding: 48}}>Loading Aion workspace…</div>}><AdminApp /></Suspense>;
   return (
     <div className="flex min-h-screen flex-col bg-canvas text-ink antialiased">
       <ScrollToTop />

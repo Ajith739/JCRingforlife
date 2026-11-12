@@ -1,0 +1,23 @@
+{
+  "url": "https://phoenix-react-alt.prium.me/pages/authentication/simple/lock-screen",
+  "text": "Hello John Smith\n\nEnter your password to access the admin\n\nSign In\nCUSTOMIZE",
+  "controls": [
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "text": "",
+      "placeholder": "Enter Password"
+    }
+  ],
+  "styles": [
+    {
+      "tag": "H2",
+      "font": "31.25px",
+      "weight": "800",
+      "color": "rgb(34, 40, 52)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    }
+  ]
+}

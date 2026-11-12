@@ -1,0 +1,1298 @@
+{
+  "links": [
+    {
+      "text": "Home",
+      "href": "#"
+    },
+    {
+      "text": "E commerce",
+      "href": "/"
+    },
+    {
+      "text": "Project management",
+      "href": "/dashboard/project-management"
+    },
+    {
+      "text": "CRM",
+      "href": "/dashboard/crm"
+    },
+    {
+      "text": "Travel Agency",
+      "href": "/dashboard/travel-agency"
+    },
+    {
+      "text": "Stock",
+      "href": "/dashboard/stock"
+    },
+    {
+      "text": "Social feed",
+      "href": "/apps/social/feed"
+    },
+    {
+      "text": "E commerce",
+      "href": "#"
+    },
+    {
+      "text": "Admin",
+      "href": "#"
+    },
+    {
+      "text": "Add product",
+      "href": "/apps/e-commerce/admin/add-product"
+    },
+    {
+      "text": "Products",
+      "href": "/apps/e-commerce/admin/products"
+    },
+    {
+      "text": "Customers",
+      "href": "/apps/e-commerce/admin/customers"
+    },
+    {
+      "text": "Customer details",
+      "href": "/apps/e-commerce/admin/customer-details"
+    },
+    {
+      "text": "Orders",
+      "href": "/apps/e-commerce/admin/orders"
+    },
+    {
+      "text": "Order details",
+      "href": "/apps/e-commerce/admin/order-details"
+    },
+    {
+      "text": "Refund",
+      "href": "/apps/e-commerce/admin/refund"
+    },
+    {
+      "text": "Customer",
+      "href": "#"
+    },
+    {
+      "text": "Homepage",
+      "href": "/apps/e-commerce/customer/homepage"
+    },
+    {
+      "text": "Product details",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "Products filter",
+      "href": "/apps/e-commerce/customer/products-filter"
+    },
+    {
+      "text": "Cart",
+      "href": "/apps/e-commerce/customer/cart"
+    },
+    {
+      "text": "Checkout",
+      "href": "/apps/e-commerce/customer/checkout"
+    },
+    {
+      "text": "Shipping info",
+      "href": "/apps/e-commerce/customer/shipping-info"
+    },
+    {
+      "text": "Profile",
+      "href": "/apps/e-commerce/customer/profile"
+    },
+    {
+      "text": "Favorite stores",
+      "href": "/apps/e-commerce/customer/favorite-stores"
+    },
+    {
+      "text": "Wishlist",
+      "href": "/apps/e-commerce/customer/wishlist"
+    },
+    {
+      "text": "Order tracking",
+      "href": "/apps/e-commerce/customer/order-tracking"
+    },
+    {
+      "text": "Invoice",
+      "href": "/apps/e-commerce/customer/invoice"
+    },
+    {
+      "text": "CRM",
+      "href": "#"
+    },
+    {
+      "text": "Analytics",
+      "href": "/apps/crm/analytics"
+    },
+    {
+      "text": "Deals",
+      "href": "/apps/crm/deals"
+    },
+    {
+      "text": "Deal details",
+      "href": "/apps/crm/deal-details"
+    },
+    {
+      "text": "Leads",
+      "href": "/apps/crm/leads"
+    },
+    {
+      "text": "Lead details",
+      "href": "/apps/crm/lead-details"
+    },
+    {
+      "text": "Reports",
+      "href": "/apps/crm/reports"
+    },
+    {
+      "text": "Report details",
+      "href": "/apps/crm/report-details"
+    },
+    {
+      "text": "Add contact",
+      "href": "/apps/crm/add-contact"
+    },
+    {
+      "text": "Project management",
+      "href": "#"
+    },
+    {
+      "text": "Create new",
+      "href": "/apps/project-management/create-new"
+    },
+    {
+      "text": "Project list view",
+      "href": "/apps/project-management/project-list-view"
+    },
+    {
+      "text": "Project card view",
+      "href": "/apps/project-management/project-card-view"
+    },
+    {
+      "text": "Project board view",
+      "href": "/apps/project-management/project-board-view"
+    },
+    {
+      "text": "Todo list",
+      "href": "/apps/project-management/todo-list"
+    },
+    {
+      "text": "Project details",
+      "href": "/apps/project-management/project-details"
+    },
+    {
+      "text": "Travel agency",
+      "href": "#"
+    },
+    {
+      "text": "Landing",
+      "href": "/apps/travel-agency/landing"
+    },
+    {
+      "text": "Hotel",
+      "href": "#"
+    },
+    {
+      "text": "Admin",
+      "href": "#"
+    },
+    {
+      "text": "Add property",
+      "href": "/apps/travel-agency/hotel/admin/add-property"
+    },
+    {
+      "text": "Add room",
+      "href": "/apps/travel-agency/hotel/admin/add-room"
+    },
+    {
+      "text": "Room listing",
+      "href": "/apps/travel-agency/hotel/admin/room-listing"
+    },
+    {
+      "text": "Search room",
+      "href": "/apps/travel-agency/hotel/admin/search-room"
+    },
+    {
+      "text": "Customer",
+      "href": "#"
+    },
+    {
+      "text": "Homepage",
+      "href": "/apps/travel-agency/hotel/customer/homepage"
+    },
+    {
+      "text": "Hotel details",
+      "href": "/apps/travel-agency/hotel/customer/hotel-details"
+    },
+    {
+      "text": "Hotel compare",
+      "href": "/apps/travel-agency/hotel/customer/hotel-compare"
+    },
+    {
+      "text": "Checkout",
+      "href": "/apps/travel-agency/hotel/customer/checkout"
+    },
+    {
+      "text": "Payment",
+      "href": "/apps/travel-agency/hotel/customer/payment"
+    },
+    {
+      "text": "Gallery",
+      "href": "/apps/travel-agency/hotel/customer/gallery"
+    },
+    {
+      "text": "Flight",
+      "href": "#"
+    },
+    {
+      "text": "Homepage",
+      "href": "/apps/travel-agency/flight/homepage"
+    },
+    {
+      "text": "Booking",
+      "href": "/apps/travel-agency/flight/booking"
+    },
+    {
+      "text": "Payment",
+      "href": "/apps/travel-agency/flight/payment"
+    },
+    {
+      "text": "Trip",
+      "href": "#"
+    },
+    {
+      "text": "Homepage",
+      "href": "/apps/travel-agency/trip/homepage"
+    },
+    {
+      "text": "Trip details",
+      "href": "/apps/travel-agency/trip/trip-details"
+    },
+    {
+      "text": "Checkout",
+      "href": "/apps/travel-agency/trip/checkout"
+    },
+    {
+      "text": "Stock",
+      "href": "#"
+    },
+    {
+      "text": "Stock details",
+      "href": "/apps/stock/stock-details"
+    },
+    {
+      "text": "Portfolio",
+      "href": "/apps/stock/portfolio"
+    },
+    {
+      "text": "Watchlist",
+      "href": "/apps/stock/watchlist"
+    },
+    {
+      "text": "Chat",
+      "href": "/apps/chat"
+    },
+    {
+      "text": "Email",
+      "href": "#"
+    },
+    {
+      "text": "Inbox",
+      "href": "/apps/email/inbox"
+    },
+    {
+      "text": "Email detail",
+      "href": "/apps/email/email-detail"
+    },
+    {
+      "text": "Compose",
+      "href": "/apps/email/compose"
+    },
+    {
+      "text": "Events",
+      "href": "#"
+    },
+    {
+      "text": "Create an event",
+      "href": "/apps/events/create-an-event"
+    },
+    {
+      "text": "Event detail",
+      "href": "/apps/events/event-detail"
+    },
+    {
+      "text": "Kanban",
+      "href": "#"
+    },
+    {
+      "text": "Kanban",
+      "href": "/apps/kanban/kanban"
+    },
+    {
+      "text": "Boards",
+      "href": "/apps/kanban/boards"
+    },
+    {
+      "text": "Create board",
+      "href": "/apps/kanban/create-board"
+    },
+    {
+      "text": "Gantt chart",
+      "href": "/apps/gantt-chart"
+    },
+    {
+      "text": "Social",
+      "href": "#"
+    },
+    {
+      "text": "Profile",
+      "href": "/apps/social/profile"
+    },
+    {
+      "text": "Settings",
+      "href": "/apps/social/settings"
+    },
+    {
+      "text": "GalleryNew",
+      "href": "#"
+    },
+    {
+      "text": "Album",
+      "href": "/apps/gallery/album"
+    },
+    {
+      "text": "Gallery column",
+      "href": "/apps/gallery/gallery-column"
+    },
+    {
+      "text": "Gallery grid",
+      "href": "/apps/gallery/gallery-grid"
+    },
+    {
+      "text": "Grid with title",
+      "href": "/apps/gallery/grid-with-title"
+    },
+    {
+      "text": "Gallery masonry",
+      "href": "/apps/gallery/gallery-masonry"
+    },
+    {
+      "text": "Gallery slider",
+      "href": "/apps/gallery/gallery-slider"
+    },
+    {
+      "text": "File manager",
+      "href": "#"
+    },
+    {
+      "text": "Grid view",
+      "href": "/apps/file-manager/grid-view"
+    },
+    {
+      "text": "List view",
+      "href": "/apps/file-manager/list-view"
+    },
+    {
+      "text": "Calendar",
+      "href": "/apps/calendar"
+    },
+    {
+      "text": "Starter",
+      "href": "/pages/starter"
+    },
+    {
+      "text": "Faq",
+      "href": "#"
+    },
+    {
+      "text": "Faq accordion",
+      "href": "/pages/faq/faq-accordion"
+    },
+    {
+      "text": "Faq tabNew",
+      "href": "/pages/faq/faq-tab"
+    },
+    {
+      "text": "Landing",
+      "href": "#"
+    },
+    {
+      "text": "Default",
+      "href": "/pages/landing/default"
+    },
+    {
+      "text": "AlternateNew",
+      "href": "/pages/landing/alternate"
+    },
+    {
+      "text": "Pricing",
+      "href": "#"
+    },
+    {
+      "text": "Pricing column",
+      "href": "/pages/pricing/pricing-column"
+    },
+    {
+      "text": "Pricing grid",
+      "href": "/pages/pricing/pricing-grid"
+    },
+    {
+      "text": "Notifications",
+      "href": "/pages/notifications"
+    },
+    {
+      "text": "Members",
+      "href": "/pages/members"
+    },
+    {
+      "text": "Timeline",
+      "href": "/pages/timeline"
+    },
+    {
+      "text": "Coming soon",
+      "href": "/pages/coming-soon"
+    },
+    {
+      "text": "Errors",
+      "href": "#"
+    },
+    {
+      "text": "403",
+      "href": "/pages/errors/403"
+    },
+    {
+      "text": "404",
+      "href": "/pages/errors/404"
+    },
+    {
+      "text": "500",
+      "href": "/pages/errors/500"
+    },
+    {
+      "text": "Authentication",
+      "href": "#"
+    },
+    {
+      "text": "Simple",
+      "href": "#"
+    },
+    {
+      "text": "Sign in",
+      "href": "/pages/authentication/simple/sign-in"
+    },
+    {
+      "text": "Sign up",
+      "href": "/pages/authentication/simple/sign-up"
+    },
+    {
+      "text": "Sign out",
+      "href": "/pages/authentication/simple/sign-out"
+    },
+    {
+      "text": "Forgot password",
+      "href": "/pages/authentication/simple/forgot-password"
+    },
+    {
+      "text": "Reset password",
+      "href": "/pages/authentication/simple/reset-password"
+    },
+    {
+      "text": "Lock screen",
+      "href": "/pages/authentication/simple/lock-screen"
+    },
+    {
+      "text": "2FA",
+      "href": "/pages/authentication/simple/2FA"
+    },
+    {
+      "text": "Split",
+      "href": "#"
+    },
+    {
+      "text": "Sign in",
+      "href": "/pages/authentication/split/sign-in"
+    },
+    {
+      "text": "Sign up",
+      "href": "/pages/authentication/split/sign-up"
+    },
+    {
+      "text": "Sign out",
+      "href": "/pages/authentication/split/sign-out"
+    },
+    {
+      "text": "Forgot password",
+      "href": "/pages/authentication/split/forgot-password"
+    },
+    {
+      "text": "Reset password",
+      "href": "/pages/authentication/split/reset-password"
+    },
+    {
+      "text": "Lock screen",
+      "href": "/pages/authentication/split/lock-screen"
+    },
+    {
+      "text": "2FA",
+      "href": "/pages/authentication/split/2FA"
+    },
+    {
+      "text": "Card",
+      "href": "#"
+    },
+    {
+      "text": "Sign in",
+      "href": "/pages/authentication/card/sign-in"
+    },
+    {
+      "text": "Sign up",
+      "href": "/pages/authentication/card/sign-up"
+    },
+    {
+      "text": "Sign out",
+      "href": "/pages/authentication/card/sign-out"
+    },
+    {
+      "text": "Forgot password",
+      "href": "/pages/authentication/card/forgot-password"
+    },
+    {
+      "text": "Reset password",
+      "href": "/pages/authentication/card/reset-password"
+    },
+    {
+      "text": "Lock screen",
+      "href": "/pages/authentication/card/lock-screen"
+    },
+    {
+      "text": "2FA",
+      "href": "/pages/authentication/card/2FA"
+    },
+    {
+      "text": "Layouts",
+      "href": "#"
+    },
+    {
+      "text": "Vertical sidenav",
+      "href": "/pages/demo/vertical-sidenav"
+    },
+    {
+      "text": "Dark mode",
+      "href": "/pages/demo/dark-mode"
+    },
+    {
+      "text": "Sidenav collapse",
+      "href": "/pages/demo/sidenav-collapse"
+    },
+    {
+      "text": "Darknav",
+      "href": "/pages/demo/darknav"
+    },
+    {
+      "text": "Topnav slim",
+      "href": "/pages/demo/topnav-slim"
+    },
+    {
+      "text": "Navbar top slim",
+      "href": "/pages/demo/navbar-top-slim"
+    },
+    {
+      "text": "Navbar top",
+      "href": "/pages/demo/navbar-top"
+    },
+    {
+      "text": "Horizontal slim",
+      "href": "/pages/demo/horizontal-slim"
+    },
+    {
+      "text": "Combo nav",
+      "href": "/pages/demo/combo-nav"
+    },
+    {
+      "text": "Combo nav slim",
+      "href": "/pages/demo/combo-nav-slim"
+    },
+    {
+      "text": "Dual nav",
+      "href": "/pages/demo/dual-nav"
+    },
+    {
+      "text": "Forms",
+      "href": "#"
+    },
+    {
+      "text": "Basic",
+      "href": "#"
+    },
+    {
+      "text": "Form control",
+      "href": "/modules/forms/form-control"
+    },
+    {
+      "text": "Input group",
+      "href": "/modules/forms/input-group"
+    },
+    {
+      "text": "Select",
+      "href": "/modules/forms/select"
+    },
+    {
+      "text": "Checks",
+      "href": "/modules/forms/checks"
+    },
+    {
+      "text": "Range",
+      "href": "/modules/forms/range"
+    },
+    {
+      "text": "Floating labels",
+      "href": "/modules/forms/floating-labels"
+    },
+    {
+      "text": "Layout",
+      "href": "/modules/forms/layout"
+    },
+    {
+      "text": "Advance",
+      "href": "#"
+    },
+    {
+      "text": "Advance select",
+      "href": "/modules/forms/advance-select"
+    },
+    {
+      "text": "Date picker",
+      "href": "/modules/forms/date-picker"
+    },
+    {
+      "text": "Editor",
+      "href": "/modules/forms/editor"
+    },
+    {
+      "text": "Emoji button",
+      "href": "/modules/forms/emoji-button"
+    },
+    {
+      "text": "File uploader",
+      "href": "/modules/forms/file-uploader"
+    },
+    {
+      "text": "Range",
+      "href": "/modules/forms/advance/range"
+    },
+    {
+      "text": "Rating",
+      "href": "/modules/forms/rating"
+    },
+    {
+      "text": "Validation",
+      "href": "/modules/forms/validation"
+    },
+    {
+      "text": "WizardNew",
+      "href": "/modules/forms/wizard"
+    },
+    {
+      "text": "Icons",
+      "href": "#"
+    },
+    {
+      "text": "Feather",
+      "href": "/modules/icons/feather"
+    },
+    {
+      "text": "Font awesome",
+      "href": "/modules/icons/font-awesome"
+    },
+    {
+      "text": "Unicons",
+      "href": "/modules/icons/unicons"
+    },
+    {
+      "text": "Tables",
+      "href": "#"
+    },
+    {
+      "text": "Basic tables",
+      "href": "/modules/tables/basic-tables"
+    },
+    {
+      "text": "Advance tables",
+      "href": "/modules/tables/advance-tables"
+    },
+    {
+      "text": "Charts",
+      "href": "#"
+    },
+    {
+      "text": "ECharts",
+      "href": "/modules/charts/e-charts"
+    },
+    {
+      "text": "Gantt chart",
+      "href": "/modules/charts/gantt-chart"
+    },
+    {
+      "text": "Components",
+      "href": "#"
+    },
+    {
+      "text": "Accordion",
+      "href": "/modules/components/accordion"
+    },
+    {
+      "text": "Avatar",
+      "href": "/modules/components/avatar"
+    },
+    {
+      "text": "Alerts",
+      "href": "/modules/components/alerts"
+    },
+    {
+      "text": "Badge",
+      "href": "/modules/components/badge"
+    },
+    {
+      "text": "Breadcrumb",
+      "href": "/modules/components/breadcrumb"
+    },
+    {
+      "text": "Buttons",
+      "href": "/modules/components/button"
+    },
+    {
+      "text": "Calendar",
+      "href": "/modules/components/calendar"
+    },
+    {
+      "text": "Card",
+      "href": "/modules/components/card"
+    },
+    {
+      "text": "Carousel",
+      "href": "#"
+    },
+    {
+      "text": "Bootstrap",
+      "href": "/modules/components/carousel/bootstrap"
+    },
+    {
+      "text": "Swiper",
+      "href": "/modules/components/carousel/swiper"
+    },
+    {
+      "text": "Collapse",
+      "href": "/modules/components/collapse"
+    },
+    {
+      "text": "Dropdown",
+      "href": "/modules/components/dropdown"
+    },
+    {
+      "text": "List group",
+      "href": "/modules/components/list-group"
+    },
+    {
+      "text": "Countup",
+      "href": "/modules/components/countup"
+    },
+    {
+      "text": "DraggableNew",
+      "href": "/modules/components/draggable"
+    },
+    {
+      "text": "Modals",
+      "href": "/modules/components/modal"
+    },
+    {
+      "text": "Navs & Tabs",
+      "href": "#"
+    },
+    {
+      "text": "Navs",
+      "href": "/modules/components/navs-and-tabs/navs"
+    },
+    {
+      "text": "Navbar",
+      "href": "/modules/components/navs-and-tabs/navbar"
+    },
+    {
+      "text": "Tabs",
+      "href": "/modules/components/navs-and-tabs/tabs"
+    },
+    {
+      "text": "Pictures",
+      "href": "#"
+    },
+    {
+      "text": "Lightbox",
+      "href": "/modules/components/pictures/lightbox"
+    },
+    {
+      "text": "Offcanvas",
+      "href": "/modules/components/offcanvas"
+    },
+    {
+      "text": "Progress bar",
+      "href": "/modules/components/progress-bar"
+    },
+    {
+      "text": "Placeholder",
+      "href": "/modules/components/placeholder"
+    },
+    {
+      "text": "Pagination",
+      "href": "/modules/components/pagination"
+    },
+    {
+      "text": "Popovers",
+      "href": "/modules/components/popovers"
+    },
+    {
+      "text": "Spinners",
+      "href": "/modules/components/spinners"
+    },
+    {
+      "text": "Toast",
+      "href": "/modules/components/toast"
+    },
+    {
+      "text": "Tooltips",
+      "href": "/modules/components/tooltips"
+    },
+    {
+      "text": "Utilities",
+      "href": "#"
+    },
+    {
+      "text": "Background",
+      "href": "/modules/utilities/background"
+    },
+    {
+      "text": "Borders",
+      "href": "/modules/utilities/borders"
+    },
+    {
+      "text": "Colors",
+      "href": "/modules/utilities/colors"
+    },
+    {
+      "text": "Display",
+      "href": "/modules/utilities/display"
+    },
+    {
+      "text": "Grid",
+      "href": "/modules/utilities/grid"
+    },
+    {
+      "text": "Flex",
+      "href": "/modules/utilities/flex"
+    },
+    {
+      "text": "Stack",
+      "href": "/modules/utilities/stack"
+    },
+    {
+      "text": "Float",
+      "href": "/modules/utilities/float"
+    },
+    {
+      "text": "Interactions",
+      "href": "/modules/utilities/interactions"
+    },
+    {
+      "text": "Opacity",
+      "href": "/modules/utilities/opacity"
+    },
+    {
+      "text": "Overflow",
+      "href": "/modules/utilities/overflow"
+    },
+    {
+      "text": "Position",
+      "href": "/modules/utilities/position"
+    },
+    {
+      "text": "Shadows",
+      "href": "/modules/utilities/shadows"
+    },
+    {
+      "text": "Sizing",
+      "href": "/modules/utilities/sizing"
+    },
+    {
+      "text": "Spacing",
+      "href": "/modules/utilities/spacing"
+    },
+    {
+      "text": "Typography",
+      "href": "/modules/utilities/typography"
+    },
+    {
+      "text": "Vertical align",
+      "href": "/modules/utilities/vertical-align"
+    },
+    {
+      "text": "Visibility",
+      "href": "/modules/utilities/visibility"
+    },
+    {
+      "text": "Widgets",
+      "href": "/widgets"
+    },
+    {
+      "text": "Multi level",
+      "href": "#"
+    },
+    {
+      "text": "Level two",
+      "href": "#"
+    },
+    {
+      "text": "Item 1",
+      "href": "/#!"
+    },
+    {
+      "text": "Item 2",
+      "href": "/#!"
+    },
+    {
+      "text": "Level three",
+      "href": "#"
+    },
+    {
+      "text": "Item 3",
+      "href": "/#!"
+    },
+    {
+      "text": "Item 4",
+      "href": "#"
+    },
+    {
+      "text": "Item 5",
+      "href": "/#!"
+    },
+    {
+      "text": "Item 6",
+      "href": "/#!"
+    },
+    {
+      "text": "Level four",
+      "href": "#"
+    },
+    {
+      "text": "Item 6",
+      "href": "/#!"
+    },
+    {
+      "text": "Item 7",
+      "href": "#"
+    },
+    {
+      "text": "Item 8",
+      "href": "/#!"
+    },
+    {
+      "text": "Item 9",
+      "href": "#"
+    },
+    {
+      "text": "Item 10",
+      "href": "/#!"
+    },
+    {
+      "text": "Item 11",
+      "href": "/#!"
+    },
+    {
+      "text": "Getting started",
+      "href": "/documentation/getting-started"
+    },
+    {
+      "text": "Customization",
+      "href": "#"
+    },
+    {
+      "text": "Configuration",
+      "href": "/documentation/customization/configuration"
+    },
+    {
+      "text": "ColorNew",
+      "href": "/documentation/customization/color"
+    },
+    {
+      "text": "Styling",
+      "href": "/documentation/customization/styling"
+    },
+    {
+      "text": "Dark mode",
+      "href": "/documentation/customization/dark-mode"
+    },
+    {
+      "text": "Design file",
+      "href": "/documentation/design-file"
+    },
+    {
+      "text": "Changelog",
+      "href": "/changelog"
+    },
+    {
+      "text": "Migrations",
+      "href": "/migrations"
+    },
+    {
+      "text": "Showcase",
+      "href": "/showcase"
+    },
+    {
+      "text": "phoenix",
+      "href": "/"
+    },
+    {
+      "text": "",
+      "href": "#"
+    },
+    {
+      "text": "",
+      "href": "/#!"
+    },
+    {
+      "text": "",
+      "href": "/#!"
+    },
+    {
+      "text": "",
+      "href": "/#!"
+    },
+    {
+      "text": "",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "Fitbit Sense Advanced Smartwatch with Tools fo...",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "RRichard Dawkins",
+      "href": "/apps/e-commerce/admin/customer-details"
+    },
+    {
+      "text": "",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "iPhone 13 pro max-Pacific Blue-128GB storage",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "Ashley Garrett",
+      "href": "/apps/e-commerce/admin/customer-details"
+    },
+    {
+      "text": "",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "Apple MacBook Pro 13 inch-M1-8/256GB-space",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "Woodrow Burton",
+      "href": "/apps/e-commerce/admin/customer-details"
+    },
+    {
+      "text": "",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "Apple iMac 24\" 4K Retina Display M1 8 Core CPU...",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "Eric McGee",
+      "href": "/apps/e-commerce/admin/customer-details"
+    },
+    {
+      "text": "See more",
+      "href": "/#!"
+    },
+    {
+      "text": "",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "Razer Kraken v3 x Wired 7.1 Surroung Sound Gam...",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "Kim Carroll",
+      "href": "/apps/e-commerce/admin/customer-details"
+    },
+    {
+      "text": "",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "PlayStation 5 DualSense Wireless Controller",
+      "href": "/apps/e-commerce/customer/product-details"
+    },
+    {
+      "text": "Barbara Lucas",
+      "href": "/apps/e-commerce/admin/customer-details"
+    },
+    {
+      "text": "India",
+      "href": "/#!"
+    },
+    {
+      "text": "China",
+      "href": "/#!"
+    },
+    {
+      "text": "USA",
+      "href": "/#!"
+    },
+    {
+      "text": "South Korea",
+      "href": "/#!"
+    },
+    {
+      "text": "Vietnam",
+      "href": "/#!"
+    },
+    {
+      "text": "+",
+      "href": "#"
+    },
+    {
+      "text": "−",
+      "href": "#"
+    },
+    {
+      "text": "Leaflet",
+      "href": "https://leafletjs.com"
+    },
+    {
+      "text": "Themewagon",
+      "href": "https://themewagon.com"
+    }
+  ],
+  "styles": [
+    {
+      "tag": "BODY",
+      "class": "",
+      "width": 1158,
+      "height": 3871.40625,
+      "font": "\"Nunito Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "fontSize": "16px",
+      "color": "rgb(49, 55, 74)",
+      "background": "rgb(245, 247, 250)"
+    },
+    {
+      "tag": "NAV",
+      "class": "navbar-vertical navbar navbar-expand-lg",
+      "width": 254,
+      "height": 607,
+      "font": "\"Nunito Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "fontSize": "16px",
+      "color": "rgb(49, 55, 74)",
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "NAV",
+      "class": "navbar-top fixed-top navbar navbar-expand",
+      "width": 1158,
+      "height": 64,
+      "font": "\"Nunito Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "fontSize": "12.8px",
+      "color": "rgb(49, 55, 74)",
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "INPUT",
+      "class": "search-input search rounded-pill form-control form-control-sm",
+      "width": 400,
+      "height": 33.0625,
+      "font": "\"Nunito Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "fontSize": "12.8px",
+      "color": "rgb(49, 55, 74)",
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "H2",
+      "class": "mb-2",
+      "width": 824,
+      "height": 31.015625,
+      "font": "\"Nunito Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "fontSize": "31.0222px",
+      "color": "rgb(20, 24, 36)",
+      "background": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "width": 267.03125,
+      "height": 24.90625,
+      "font": "\"Nunito Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "fontSize": "24.8988px",
+      "color": "rgb(20, 24, 36)",
+      "background": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "class": "",
+      "width": 267.03125,
+      "height": 24.90625,
+      "font": "\"Nunito Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "fontSize": "24.8988px",
+      "color": "rgb(20, 24, 36)",
+      "background": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "INPUT",
+      "class": "search-input search form-control form-control-sm",
+      "width": 320,
+      "height": 33.0625,
+      "font": "\"Nunito Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "fontSize": "12.8px",
+      "color": "rgb(49, 55, 74)",
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "INPUT",
+      "class": "form-check-input",
+      "width": 16,
+      "height": 16,
+      "font": "\"Nunito Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "fontSize": "16px",
+      "color": "rgb(0, 0, 0)",
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "INPUT",
+      "class": "form-check-input",
+      "width": 16,
+      "height": 16,
+      "font": "\"Nunito Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "fontSize": "16px",
+      "color": "rgb(0, 0, 0)",
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "INPUT",
+      "class": "form-check-input",
+      "width": 16,
+      "height": 16,
+      "font": "\"Nunito Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "fontSize": "16px",
+      "color": "rgb(0, 0, 0)",
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "INPUT",
+      "class": "form-check-input",
+      "width": 16,
+      "height": 16,
+      "font": "\"Nunito Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "fontSize": "16px",
+      "color": "rgb(0, 0, 0)",
+      "background": "rgb(255, 255, 255)"
+    }
+  ]
+}

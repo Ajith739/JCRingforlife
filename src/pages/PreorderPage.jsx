@@ -129,6 +129,7 @@ export default function PreorderPage() {
   const [isPhotoUploaded, setIsPhotoUploaded] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submittedData, setSubmittedData] = useState(null);
+  const reservationRequestId = useRef(crypto.randomUUID());
   const [error, setError] = useState(null);
   const [touched, setTouched] = useState({});
 
@@ -234,9 +235,27 @@ export default function PreorderPage() {
     setError(null);
 
     try {
-      // Simulate real submission
-      await new Promise((resolve) => setTimeout(resolve, 900));
+      const { isLocalDemo, localRequest } = await import('../admin/services/localDemo');
+      let reservation;
+      if (isLocalDemo()) {
+        reservation = await localRequest('/storefront/reservations', {
+          method: 'POST', body: JSON.stringify({ requestId: reservationRequestId.current, details, rings }),
+        });
+      } else {
+        const sessionResponse = await fetch('/api/auth/session', { credentials: 'same-origin' });
+        if (!sessionResponse.ok) throw new Error('The reservation service is unavailable. Please try again.');
+        const session = await sessionResponse.json();
+        const response = await fetch('/api/storefront/reservations', {
+          method: 'POST', credentials: 'same-origin',
+          headers: { 'Content-Type': 'application/json', 'X-CSRF-Token': session.csrf },
+          body: JSON.stringify({ requestId: reservationRequestId.current, details, rings }),
+        });
+        reservation = await response.json();
+        if (!response.ok) throw new Error(reservation.error || 'Your reservation could not be saved. Please try again.');
+      }
       setSubmittedData({
+        reservationId: reservation.id,
+        development: reservation.demo,
         name: details.first_name,
         partner: partnerInfo?.name || null,
         totalRings: totalRingsCount,
@@ -279,7 +298,9 @@ export default function PreorderPage() {
                 Thank you, {submittedData.name}.
               </h1>
               <p className="text-[16px] text-ink-soft mb-8 max-w-lg mx-auto">
-                Your JCRingforlife Ring reservation has been received. A confirmation email is on its way.
+                Your JCRingforlife Ring reservation has been saved. No payment has been collected.
+                <span className="block mt-2 text-sm font-semibold">Reference: {submittedData.reservationId}</span>
+                {submittedData.development && <span className="block mt-2 text-xs">Development reservation — saved to the isolated local workspace.</span>}
               </p>
 
               {submittedData.partner && (

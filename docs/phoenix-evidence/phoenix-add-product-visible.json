@@ -1,0 +1,503 @@
+{
+  "url": "https://phoenix-react-alt.prium.me/apps/e-commerce/admin/add-product",
+  "text": "Home\n\nAPPS\n\nE commerce\nAdmin\nCustomer\nCRM\nProject management\nTravel agency\nStock\nChat\nEmail\nEvents\nKanban\nGantt chart\nSocial\nGalleryNEW\nFile manager\nCalendar\n\nPAGES\n\nStarter\nFaq\nLanding\nPricing\nNotifications\nMembers\nTimeline\nComing soon\nErrors\nAuthentication\nLayouts\n\nMODULES\n\nForms\nIcons\nTables\nCharts\nComponents\nUtilities\nWidgets\nMulti level\n\nDOCUMENTATION\n\nGetting started\nCustomization\nDesign file\nChangelog\nMigrations\nShowcase\nCollapsed View\n\nphoenix\n\nPage 1\nPage 2\nDefault\nAdd a product\nOrders placed across your store\nDiscard\nSave draft\nPublish product\nProduct Title\nProduct Description\nDisplay images\nDrag your photo here or Browse from device\n\nInventory\nPricing\nRestock\nShipping\nGlobal Delivery\nAttributes\nAdvanced\nRegular price\nSale price\nOrganize\nCategory\nAdd new category\nMen's Clothing\nWomens's Clothing\nKid's Clothing\nVendor\nAdd new vendor\nMen's Clothing\nWomens's Clothing\nKid's Clothing\nCollection\nAdd new collection\nTags\nView all tags\nMen's Clothing\nWomens's Clothing\nKid's Clothing\nVariants\nOption 1\nRemove\nSize\nColor\nWeight\nSmell\nOption 2\nRemove\nSize\nColor\nWeight\nSmell\nAdd another option\n\nThank you for creating with Phoenix React|2026 © Themewagon\n\nv2.2.0\n\nDemo widget\nEric\n\nAsk us anything – we’ll get back to you here or by email within 24 hours.\n\nI need help with something\n\nI can’t reorder a product I previously ordered\n\nHow do I place an order?\n\nMy payment method not working\n\nChat demo\nCUSTOMIZE",
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Collapsed View"
+    },
+    {
+      "tag": "INPUT",
+      "type": "search",
+      "text": "",
+      "placeholder": "Search..."
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Discard"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Save draft"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "text": "Publish product"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": "Write title here..."
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Browse from device"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": "$$$"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": "$$$"
+    },
+    {
+      "tag": "INPUT",
+      "type": "number",
+      "text": "",
+      "placeholder": "Quantity"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Confirm"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": "Max. allowed Temperature"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "date",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "text": "ISBNUPCEANJAN"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": "ISBN Number"
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "text": "Men's ClothingWomens's ClothingKid's Clothing"
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "text": "Men's ClothingWomens's ClothingKid's Clothing"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": "Collection"
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "text": "Men's ClothingWomens's ClothingKid's Clothing"
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "text": "SizeColorWeightSmell"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "text": "SizeColorWeightSmell"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Add another option"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "I need help with something"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "I can’t reorder a product I previously ordered"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "How do I place an order?"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "My payment method not working"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": "Write message"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "text": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Chat demo"
+    }
+  ],
+  "styles": [
+    {
+      "tag": "TD",
+      "font": "16px",
+      "weight": "700",
+      "color": "rgb(34, 40, 52)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "4px 1px"
+    },
+    {
+      "tag": "TD",
+      "font": "16px",
+      "weight": "600",
+      "color": "rgb(82, 91, 117)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "4px 1px"
+    },
+    {
+      "tag": "TD",
+      "font": "16px",
+      "weight": "700",
+      "color": "rgb(34, 40, 52)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "4px 1px"
+    },
+    {
+      "tag": "TD",
+      "font": "16px",
+      "weight": "600",
+      "color": "rgb(82, 91, 117)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "4px 1px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "16px",
+      "weight": "600",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "16px",
+      "weight": "600",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "16px",
+      "weight": "600",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "16px",
+      "weight": "600",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "16px",
+      "weight": "600",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "16px",
+      "weight": "600",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "16px",
+      "weight": "600",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "16px",
+      "weight": "600",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "16px",
+      "weight": "600",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(56, 116, 255)",
+      "bg": "rgb(245, 247, 250)",
+      "radius": "6px",
+      "padding": "10px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "8px 16px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "12.8px",
+      "weight": "500",
+      "color": "rgb(138, 148, 173)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "12.8px",
+      "weight": "500",
+      "color": "rgb(138, 148, 173)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(56, 116, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "50%",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "800px",
+      "padding": "0px"
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "url": "https://phoenix-react-alt.prium.me/apps/e-commerce/admin/customers",
+  "text": "Home\n\nAPPS\n\nE commerce\nAdmin\nCustomer\nCRM\nProject management\nTravel agency\nStock\nChat\nEmail\nEvents\nKanban\nGantt chart\nSocial\nGalleryNEW\nFile manager\nCalendar\n\nPAGES\n\nStarter\nFaq\nLanding\nPricing\nNotifications\nMembers\nTimeline\nComing soon\nErrors\nAuthentication\nLayouts\n\nMODULES\n\nForms\nIcons\nTables\nCharts\nComponents\nUtilities\nWidgets\nMulti level\n\nDOCUMENTATION\n\nGetting started\nCustomization\nDesign file\nChangelog\nMigrations\nShowcase\nCollapsed View\n\nphoenix\n\nPage 1\nPage 2\nDefault\nCustomers\nAll (68817)\nNew (6)\nAbandoned checkouts (17)\nLocals (6810)\nEmail subscribers (8)\nTop reviews (2)\nCountry\nVIP\nMore filters\nExportAdd customer\n\tCUSTOMER\tEMAIL\tORDERS\tTOTAL SPENT\tCITY\tLAST SEEN\tLAST ORDER\n\n\t\n\nCarry Anna\n\n\tannac34@gmail.com\t89\t$23,987\tBudapest\t34 min ago\tDec 12, 12:56 PM\n\n\t\n\nMilind Mikuja\n\n\tmimiku@yahoo.com\t76\t$21,567\tManchester\t6 hours ago\tDec 9, 2:28 PM\n\n\t\n\nStanly Drinkwater\n\n\tstnlwasser@hotmail.com\t69\t$19,872\tSmallville\t43 min ago\tDec 4, 12:56 PM\n\n\t\n\nJosef Stravinsky\n\n\tJosefsky@sni.it\t67\t$17,996\tMetropolis\t2 hours ago\tDec 1, 4:07 AM\n\n\t\n\nIgor Borvibson\n\n\tvibigorr@technext.it\t61\t$16,785\tCentral city\t5 days ago\tNov 28, 7:28 PM\n\n\t\n\nKaterina Karenin\n\n\tkarkat99@gmail.com\t58\t$14,956\tGotham\t2 weeks ago\tNov 24, 10:16 AM\n\n\t\n\nRoy Anderson\n\n\tandersonroy@netflix.chill\t52\t$12,509\tVancouver\t4 days ago\tNov 18, 5:43 PM\n\n\t\n\nMartina scorcese\n\n\tcesetina1@gmail.com\t49\t$11,003\tViena\t6 min ago\tNov 18, 2:09 AM\n\n\t\n\nLuis Bunuel\n\n\tluisuel@live.com\t44\t$7,897\tBangalore\t56 min ago\tNov 16, 3:22 PM\n\n\t\n\nJean Renoir\n\n\trenoirjean1836@gmail.com\t37\t$7,781\tChittagong\tYesterday\tNov 09, 8:49 AM\n\n1 to 10 items of 15\n\nView all\nPrevious\n1\n(current)\n2\nNext\n\nThank you for creating with Phoenix React|2026 © Themewagon\n\nv2.2.0\n\nDemo widget\nEric\n\nAsk us anything – we’ll get back to you here or by email within 24 hours.\n\nI need help with something\n\nI can’t reorder a product I previously ordered\n\nHow do I place an order?\n\nMy payment method not working\n\nChat demo\nCUSTOMIZE",
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Collapsed View"
+    },
+    {
+      "tag": "INPUT",
+      "type": "search",
+      "text": "",
+      "placeholder": "Search..."
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "search",
+      "text": "",
+      "placeholder": "Search customers"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Country"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "VIP"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "More filters"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Export"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Add customer"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "View all"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "I need help with something"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "I can’t reorder a product I previously ordered"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "How do I place an order?"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "My payment method not working"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": "Write message"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "text": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Chat demo"
+    }
+  ],
+  "styles": [
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "600",
+      "color": "rgb(34, 40, 52)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 4px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 4px 16px 16px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(34, 40, 52)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 8px 16px 48px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(82, 91, 117)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 4px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(82, 91, 117)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 0px 16px 8px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 8px 16px 0px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px 32px 0px 0px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 32px 16px 4px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "600",
+      "color": "rgb(34, 40, 52)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 4px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 4px 16px 16px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(34, 40, 52)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 8px 16px 48px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(82, 91, 117)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 4px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(82, 91, 117)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 0px 16px 8px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "600",
+      "color": "rgb(56, 116, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "8px 16px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "12.8px",
+      "weight": "500",
+      "color": "rgb(138, 148, 173)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "12.8px",
+      "weight": "500",
+      "color": "rgb(138, 148, 173)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(56, 116, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "50%",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "800px",
+      "padding": "0px"
+    }
+  ]
+}

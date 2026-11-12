@@ -46,3 +46,8 @@ desktop.ini
 
 # Local development
 *.local
+
+# Admin runtime data and browser output
+.data/
+test-results/
+playwright-report/

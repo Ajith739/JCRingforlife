@@ -1,0 +1,16 @@
+{
+  "url": "https://phoenix-react-alt.prium.me/pages/errors/403",
+  "text": "Access Forbidden!\n\nYou don’t have permission to access this resource.\n\nGo Home\nCUSTOMIZE",
+  "controls": [],
+  "styles": [
+    {
+      "tag": "H2",
+      "font": "31.25px",
+      "weight": "800",
+      "color": "rgb(62, 70, 91)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "url": "https://phoenix-react-alt.prium.me/pages/authentication/split/sign-in",
+  "text": "Sign In\n\nGet access to your account\n\nSign in with googleSign in with facebook\nor use email\nEMAIL ADDRESS\nPASSWORD\nRemember me\nForgot Password?\nSign In\nCreate an account\nCUSTOMIZE",
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Sign in with google"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Sign in with facebook"
+    },
+    {
+      "tag": "INPUT",
+      "type": "email",
+      "text": "",
+      "placeholder": "name@example.com"
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "text": "",
+      "placeholder": "Password"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Sign In"
+    }
+  ],
+  "styles": [
+    {
+      "tag": "H3",
+      "font": "25px",
+      "weight": "800",
+      "color": "rgb(34, 40, 52)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgb(245, 247, 250)",
+      "radius": "6px",
+      "padding": "10px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgb(245, 247, 250)",
+      "radius": "6px",
+      "padding": "10px 24px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "10.24px",
+      "weight": "700",
+      "color": "rgb(82, 91, 117)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px 0px 0px 16px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "10.24px",
+      "weight": "700",
+      "color": "rgb(82, 91, 117)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px 0px 0px 16px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "12.8px",
+      "weight": "600",
+      "color": "rgb(82, 91, 117)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(56, 116, 255)",
+      "radius": "6px",
+      "padding": "10px 24px"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "capturedOn": "2026-11-12",
+  "productionVulnerabilities": 0,
+  "allDependencies": {
+    "info": 0,
+    "low": 0,
+    "moderate": 7,
+    "high": 0,
+    "critical": 0,
+    "total": 7
+  },
+  "developmentIssues": [
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "severity": "moderate"
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "severity": "moderate"
+    },
+    {
+      "name": "@typescript-eslint/type-utils",
+      "severity": "moderate"
+    },
+    {
+      "name": "@typescript-eslint/typescript-estree",
+      "severity": "moderate"
+    },
+    {
+      "name": "@typescript-eslint/utils",
+      "severity": "moderate"
+    },
+    {
+      "name": "minimatch",
+      "severity": "moderate"
+    },
+    {
+      "name": "typescript-eslint",
+      "severity": "moderate"
+    }
+  ]
+}

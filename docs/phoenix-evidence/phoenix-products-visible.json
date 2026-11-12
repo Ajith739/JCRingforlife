@@ -1,0 +1,464 @@
+{
+  "url": "https://phoenix-react-alt.prium.me/apps/e-commerce/admin/products",
+  "text": "Home\n\nAPPS\n\nE commerce\nAdmin\nCustomer\nCRM\nProject management\nTravel agency\nStock\nChat\nEmail\nEvents\nKanban\nGantt chart\nSocial\nGalleryNEW\nFile manager\nCalendar\n\nPAGES\n\nStarter\nFaq\nLanding\nPricing\nNotifications\nMembers\nTimeline\nComing soon\nErrors\nAuthentication\nLayouts\n\nMODULES\n\nForms\nIcons\nTables\nCharts\nComponents\nUtilities\nWidgets\nMulti level\n\nDOCUMENTATION\n\nGetting started\nCustomization\nDesign file\nChangelog\nMigrations\nShowcase\nCollapsed View\n\nphoenix\n\nPage 1\nPage 2\nDefault\nProducts\nAll (68817)\nPublished (70348)\nDrafts (17)\nOn discount (810)\nCategory\nVendor\nMore filters\nExportAdd product\n\t\tPRODUCT NAME\tPRICE\tCATEGORY\tTAGS\t\tVENDOR\tPUBLISHED ON\t\n\n\t\t\nFitbit Sense Advanced Smartwatch with Tools for Heart Health, Stress Management & Skin Temperature Trends, Carbon/Graphite, One Size (S & L Bands...\n\t$39\tPlants\t\nHEALTH\nEXERCISE\nDISCIPLINE\nLIFESTYLE\nFITNESS\n\t\n\tBlue Olive Plant sellers. Inc\tNov 12, 10:45 PM\t\n\n\n\t\t\niPhone 13 pro max-Pacific Blue-128GB storage\n\t$87\tFurniture\t\nCLASS\nCAMERA\nDISCIPLINE\nINVINCIBLE\nPRO\nSWAG\n\t\n\tBeatrice Furnitures\tNov 11, 7:36 PM\t\n\n\n\t\t\nApple MacBook Pro 13 inch-M1-8/256GB-space\n\t$9\tPlants\t\nEFFICIENCY\nHANDY\nAPPLE\nCREATIVITY\nGRAY\n\t\n\tPlantPlanet\tNov 11, 8:16 AM\t\n\n\n\t\t\nApple iMac 24\" 4K Retina Display M1 8 Core CPU...\n\t$8 - $58\tToys\t\nCOLOR\nSTUNNING\nRETINA\nGREEN\nPC KILLER\n\t\n\tKizzstore\tNov 8, 6:39 PM\t\n\n\n\t\t\nRazer Kraken v3 x Wired 7.1 Surroung Sound Gaming headset\n\t$120\tFashion\t\nMUSIC\nAUDIO\nMEETING\nRECORD\nSOUND\n\t\n\tInertia Fashion\tNov 8, 5:32 PM\t\n\n\n\t\t\nPlayStation 5 DualSense Wireless Controller\n\t$239\tGadgets\t\nGAME\nCONTROL\nNAV\nPLAYSTATION\nWIRELESS\n\t\n\tFutureTech Inc\tNov 6, 11:34 PM\t\n\n\n\t\t\n2021 Apple 12.9-inch iPad Pro (Wi‑Fi, 128GB) - Space Gray\n\t$4\tFood\t\nIPAD\nPRO\nCREATIVITY\nTHUNDERBOLT\nSPACE\n\t\n\tMaimuna’s Bakery\tNov 1, 7:45 AM\t\n\n\n\t\t\nAmazon Basics Matte Black Wired Keyboard - US Layout (QWERTY)\n\t$98\tFashion\t\nKEYBOARD\nSMOOTH\nBUTTER\nRGB\nBLACK\n\t\n\tGreen fashion\tNov 3, 12:27 PM\t\n\n\n\t\t\nApple Magic Mouse (Wireless, Rechargable) - Silver\n\t$568\tFashion\t\nAPPLE\nWIRELESS\nBATTERY\nMAGIC\nPERFORMANCE\n\t\n\tEastacy\tNov 1, 9:39 AM\t\n\n\n\t\t\nHORI Racing Wheel Apex for PlayStation 4_3, and PC\n\t$17\tDrinks\t\nSTEERING\nGAMING\nPS4/3\nRACING\nAPEX\n\t\n\tBrewerBro\tOct 30, 3:49 PM\t\n\n1 to 10 items of 16\n\nView all\nPrevious\n1\n(current)\n2\nNext\n\nThank you for creating with Phoenix React|2026 © Themewagon\n\nv2.2.0\n\nDemo widget\nEric\n\nAsk us anything – we’ll get back to you here or by email within 24 hours.\n\nI need help with something\n\nI can’t reorder a product I previously ordered\n\nHow do I place an order?\n\nMy payment method not working\n\nChat demo\nCUSTOMIZE",
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Collapsed View"
+    },
+    {
+      "tag": "INPUT",
+      "type": "search",
+      "text": "",
+      "placeholder": "Search..."
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "search",
+      "text": "",
+      "placeholder": "Search products"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Category"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Vendor"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "More filters"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Export"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Add product"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "View all"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "I need help with something"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "I can’t reorder a product I previously ordered"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "How do I place an order?"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "My payment method not working"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "placeholder": "Write message"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "text": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "text": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "Chat demo"
+    }
+  ],
+  "styles": [
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 0px 16px 8px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "8px 16px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 8px 16px 0px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px 8px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 8px 16px 24px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(82, 91, 117)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 8px 16px 24px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "600",
+      "color": "rgba(82, 91, 117, 0.85)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 8px 16px 24px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 8px 16px 16px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 8px 16px 24px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "600",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 8px 16px 24px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgba(82, 91, 117, 0.85)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 8px 16px 24px"
+    },
+    {
+      "tag": "TD",
+      "font": "12.8px",
+      "weight": "400",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "16px 0px 16px 8px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "8px 16px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "600",
+      "color": "rgb(56, 116, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "8px 16px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(20, 24, 36)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "800px",
+      "padding": "8px 16px 8px 24px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "12.8px",
+      "weight": "500",
+      "color": "rgb(138, 148, 173)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "6px",
+      "padding": "0px"
+    },
+    {
+      "tag": "LABEL",
+      "font": "12.8px",
+      "weight": "500",
+      "color": "rgb(138, 148, 173)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "0px",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(56, 116, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "radius": "50%",
+      "padding": "0px"
+    },
+    {
+      "tag": "BUTTON",
+      "font": "12.8px",
+      "weight": "700",
+      "color": "rgb(49, 55, 74)",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "800px",
+      "padding": "0px"
+    }
+  ]
+}
