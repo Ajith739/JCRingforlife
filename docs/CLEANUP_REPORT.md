@@ -1,0 +1,5 @@
+# Cleanup report
+
+Moved `src` storefront files to `frontend/src`, admin files to `backend/admin/src`, public assets to `frontend/public`, and `server` modules to `backend/api/src`. Moved validation, transitions, constants and financial arithmetic into `backend/shared`. Updated relative imports in applications, tests and scripts. Moved index HTML into `frontend`; added a standalone admin HTML/React entry. Replaced root Vite config with per-application configs; updated npm, Tailwind and static-serving paths.
+
+Old `src`, `server`, `public`, root `index.html` and root Vite config no longer remain after migration. Their required contents were moved or replaced, not discarded. No database records/schema, media assets, maintained tests or business modules were deleted. Uncertain public assets and reference inspection scripts remain. No extra dependency was verified unused in this pass, so none was removed. Git ignores were validated for nested dependencies, builds, environment and local SQLite files. Only safe `.env.example` is tracked among environment/key/database candidates.

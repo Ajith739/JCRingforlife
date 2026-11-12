@@ -51,3 +51,14 @@ desktop.ini
 .data/
 test-results/
 playwright-report/
+
+# Additional generated output and local secrets
+build/
+.next/
+out/
+.tmp/
+temp/
+*.pem
+*.key
+*.sqlite
+*.sqlite-*

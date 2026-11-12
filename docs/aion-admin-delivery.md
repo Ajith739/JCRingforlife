@@ -112,7 +112,7 @@ Mutating requests require the `X-CSRF-Token` from the session endpoint. Session 
 3. **Shipping:** manual tracking is stored; labels, live carrier tracking, and shipping notifications need an adapter.
 4. **Marketing:** saved coupon and content workflows work in the API, but the current storefront does not yet consume them. Usage counting must be tied to verified checkout completion.
 5. **External Aion services:** no original database/API or Azure credentials were present. No live production records were imported or modified.
-6. **Brand and timing:** admin uses Aion branding; the user-supplied JCRingforlife storefront branding and historical delivery copy remain intact except the reservation success message now accurately describes persistence without promising email.
+6. **Brand and timing:** admin uses JCRingforlife branding; the user-supplied JCRingforlife storefront branding and historical delivery copy remain intact except the reservation success message now accurately describes persistence without promising email.
 7. **Assets:** original CSS utility artwork and existing ring assets are used. No proprietary Phoenix source is redistributed. New image upload/storage and malware scanning are outside the provided integrations.
 8. **Verification:** automated checks are recorded below. They do not constitute a penetration test, accounting audit, email deliverability test or a test of unconfigured external services.
 
@@ -121,7 +121,6 @@ Mutating requests require the `X-CSRF-Token` from the session endpoint. Session 
 Run:
 
 ```sh
-npm run typecheck
 npm run lint
 npm test
 npm run build
@@ -129,10 +128,10 @@ npm run test:e2e
 node scripts/production-smoke.mjs
 ```
 
-- TypeScript and ESLint pass.
-- **19 unit/API tests** pass: commerce validation, route status codes, protected reads, CSRF, product CRUD, duplicate SKUs, inventory, order rules, lock/unlock, unavailable-service states, password strength, expired/single-use reset tokens, session invalidation, viewer authorization, storefront reservation persistence/deduplication, empty pricing overrides, and long-range analytics/date boundaries.
-- **Five admin browser suites** pass: auth/error routes, every admin navigation route, search/themes/sidebar persistence, product CRUD, inventory validation, order transitions, lock/logout, and screenshots at **1440, 1024, 768 and 390px**. A sixth storefront browser test passes for the preserved storefront and full reservation form.
+- JavaScript lint and Vite build pass; TypeScript tooling has been removed.
+- **24 unit/API tests** pass: commerce validation, route status codes, protected reads, CSRF, product CRUD, duplicate SKUs, inventory, order rules, lock/unlock, unavailable-service states, password strength, expired/single-use reset tokens, session invalidation, viewer authorization, storefront reservation persistence/deduplication, empty pricing overrides, and long-range analytics/date boundaries.
+- **Nine browser suites** pass: auth/error routes, every admin navigation route, search/themes/sidebar persistence, product CRUD, inventory validation, order transitions, lock/logout, and screenshots at **1440, 1024, 768 and 390px**. A sixth storefront browser test passes for the preserved storefront and full reservation form.
 - Production smoke passes with a temporary database: development access remains disabled even when requested, protected APIs reject anonymous access, SPA routes serve, and utility/unknown HTTP status codes are correct.
-- `npm audit --omit=dev`: **0 vulnerabilities**. Full audit reports 7 moderate issues in the TypeScript ESLint/minimatch development-only dependency chain; no high or critical issues remain.
+- `npm audit --omit=dev`: **0 vulnerabilities**. Full audit reports 0 issues after the JavaScript migration.
 - Build succeeds. The existing storefront entry bundle remains above Vite's 500KB advisory threshold; admin route and feature bundles are split. The shared chart/analytics chunk is approximately 425KB before gzip (120KB gzip); the dashboard feature itself is approximately 9.5KB. No build error is suppressed.
 - Automated tests use local synthetic data. Screenshots in `docs/phoenix-evidence/aion-*` contain development records only.
